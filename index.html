@@ -1,23 +1,117 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/main.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/highlight.css" />
+    <link rel="stylesheet" href="/css/main.css" />
 
     <title>Hello, world!</title>
   </head>
   <body>
     <div class="container">
-      <img id="monkey-logo" src="/images/monkey_logo.png" alt="Monkey logo" class="float-left">
-      <h1>Monkey</h1>
-      <h2>The programming language that lives in books</h2>
-    </div>
+      <div class="row">
+        <div class="col col-md-10 offset-md-1">
+          <img id="monkey-logo" src="/images/monkey_logo.png" alt="Monkey logo" class="float-left" />
+          <h1>Monkey</h1>
+          <h2>The programming language that lives in books</h2>
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="col col-md-10 offset-md-1">
+
+          <h2>What is Monkey?</h2>
+          <p>Monkey was created in <a href="https://interpreterbook.com">Writing An Interpreter In Go</a> and <a href="https://compilerbook.com">Writing A Compiler In Go</a></p>
+          <p>Monkey looks like this:</p>
+
+          <div class="highlight">
+            <pre class="highlight javascript">
+              <code>
+                <span class="c1">// Integers &amp; arithmetic expressions</span>
+                <span class="kd">let</span> <span class="nx">version</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">+</span> <span class="p">(</span><span class="mi">50</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span> <span class="o">-</span> <span class="p">(</span><span class="mi">8</span> <span class="o">*</span> <span class="mi">3</span><span class="p">);</span>
+
+                <span class="c1">// Strings</span>
+                <span class="kd">let</span> <span class="nx">name</span> <span class="o">=</span> <span class="s2">"The Monkey programming language"</span><span class="p">;</span>
+
+                <span class="c1">// Booleans</span>
+                <span class="kd">let</span> <span class="nx">isMonkeyFastNow</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+
+                <span class="c1">// Arrays &amp; Hashes</span>
+                <span class="kd">let</span> <span class="nx">people</span> <span class="o">=</span> <span class="p">[{</span><span class="s2">"name"</span><span class="p">:</span> <span class="s2">"Anna"</span><span class="p">,</span> <span class="s2">"age"</span><span class="p">:</span> <span class="mi">24</span><span class="p">},</span> <span class="p">{</span><span class="s2">"name"</span><span class="p">:</span> <span class="s2">"Bob"</span><span class="p">,</span> <span class="s2">"age"</span><span class="p">:</span> <span class="mi">99</span><span class="p">}];</span>
+
+                <span class="c1">// Functions</span>
+                <span class="kd">let</span> <span class="nx">getName</span> <span class="o">=</span> <span class="nx">fn</span><span class="p">(</span><span class="nx">person</span><span class="p">)</span> <span class="p">{</span> <span class="nx">person</span><span class="p">[</span><span class="s2">"name"</span><span class="p">];</span> <span class="p">};</span>
+                <span class="nx">getName</span><span class="p">(</span><span class="nx">people</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span> <span class="c1">// =&gt; "Anna"</span>
+                <span class="nx">getName</span><span class="p">(</span><span class="nx">people</span><span class="p">[</span><span class="mi">1</span><span class="p">]);</span> <span class="c1">// =&gt; "Bob"</span>
+            </code>
+            </pre>
+          </div>
+          <p>
+            It supports <strong>recursive functions</strong>,
+            <strong>conditionals</strong>,
+            <strong>implicit and explicit returning of values</strong>:
+          </p>
+
+          <div class="highlight">
+            <pre class="highlight javascript">
+              <code>
+                <span class="kd">let</span> <span class="nx">fibonacci</span> <span class="o">=</span> <span class="nx">fn</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="p">{</span>
+                <span class="k">if</span> <span class="p">(</span><span class="nx">x</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+                <span class="mi">0</span>
+                <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                <span class="k">if</span> <span class="p">(</span><span class="nx">x</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+                <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+                <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                <span class="nx">fibonacci</span><span class="p">(</span><span class="nx">x</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="nx">fibonacci</span><span class="p">(</span><span class="nx">x</span> <span class="o">-</span> <span class="mi">2</span><span class="p">);</span>
+                <span class="p">}</span>
+                <span class="p">}</span>
+                <span class="p">};</span>
+              </code>
+            </pre>
+          </div>
+
+          <p>
+            The crown-jewels in every Monkey implementation are
+            <strong>closures</strong>:
+          </p>
+
+          <div class="highlight">
+            <pre class="highlight javascript">
+              <code>
+                <span class="c1">// `newAdder` returns a closure that makes use of the free variables `a` and `b`:</span>
+                <span class="kd">let</span> <span class="nx">newAdder</span> <span class="o">=</span> <span class="nx">fn</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="p">{</span>
+                <span class="nx">fn</span><span class="p">(</span><span class="nx">c</span><span class="p">)</span> <span class="p">{</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span> <span class="o">+</span> <span class="nx">c</span> <span class="p">};</span>
+                <span class="p">};</span>
+                <span class="c1">// This constructs a new `adder` function:</span>
+                <span class="kd">let</span> <span class="nx">adder</span> <span class="o">=</span> <span class="nx">newAdder</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">);</span>
+                <span class="nx">adder</span><span class="p">(</span><span class="mi">8</span><span class="p">);</span> <span class="c1">// =&gt; 11</span>
+              </code>
+            </pre>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <h2>The books</h2>
+      </div>
+
+      <div class="row">
+        <h2>Monkey implementations</h2>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
