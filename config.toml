@@ -1,6 +1,6 @@
-baseURL = "www.example.com"
+baseURL = "https://monkeylang.org"
 languageCode = "en-us"
-title = "Hugo Whisper Theme"
+title = "The Monkey programming language"
 theme = "whisper"
 
 pygmentsCodeFences = true
