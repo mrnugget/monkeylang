@@ -4,7 +4,13 @@ title: 'Monkey'
 
 ### What is monkey?
 
-Monkey is the programming language we build ourselves in <a href="https://interpreterbook.com">Writing An Interpreter In Go</a> and <a href="https://compilerbook.com">Writing A Compiler In Go</a>
+Monkey is a programming language that *you can build yourself* by reading
+through <a href="https://interpreterbook.com">Writing An Interpreter In Go</a>
+and <a href="https://compilerbook.com">Writing A Compiler In Go</a>.
+
+There is no official implementation of Monkey — it lives in these books and it's
+up to you, the reader, to implement it. First as a tree-walking interpreter,
+then as a bytecode compiler and virtual machine.
 
 It looks like this:
 
