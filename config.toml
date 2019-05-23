@@ -1,0 +1,41 @@
+baseURL = "www.example.com"
+languageCode = "en-us"
+title = "Hugo Whisper Theme"
+theme = "whisper"
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[[menu.main]]
+    name = "What is Monkey?"
+    url = "#what-is-monkey"
+    weight = 1
+
+[[menu.main]]
+    name = "Books"
+    url = "#books"
+    weight = 2
+
+[[menu.main]]
+    name = "Monkeys in the wild"
+    url = "#monkeys-in-the-wild"
+    weight = 2
+
+[params]
+  google_analytics_id=""
+
+  [params.homepage_meta_tags]
+    meta_description = "Monkey is the programming language that lives in books"
+    meta_og_title = "Monkey"
+    meta_og_type = "website"
+    meta_og_url = "https://monkeylang.org"
+    meta_og_image = "https://monkeylang.org/images/logo.png"
+    meta_og_description = "Monkey is the programming language that lives in books"
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@thorstenball"
+    meta_twitter_creator = "@thorstenball"
+
+  [params.logo]
+      mobile = "/images/logo.png"
+      standard  = "/images/logo.png"
