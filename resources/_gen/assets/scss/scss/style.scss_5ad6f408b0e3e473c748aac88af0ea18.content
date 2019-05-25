@@ -3761,6 +3761,7 @@ mark,
   border: 2px solid #fff; }
 
 h3 {
+  margin-top: 5rem;
   margin-bottom: 1rem; }
 
 h4 {

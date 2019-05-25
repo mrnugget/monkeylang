@@ -2,7 +2,7 @@
 title: 'Monkey'
 ---
 
-### What is monkey?
+### What is Monkey?
 
 Monkey is a programming language that *you can build yourself* by reading
 through <a href="https://interpreterbook.com">Writing An Interpreter In Go</a>
