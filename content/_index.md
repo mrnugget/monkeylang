@@ -60,22 +60,23 @@ adder(8); // => 11
 
 ### Books
 
-#### Writing An Interpreter In Go
+<div class="book-section clearfix">
+  <h4>Writing An Interpreter In Go</h4>
+  <a href="https://interpreterbook.com"><img src="/images/waiig_cover.png" class="cover float-left mb-2 mr-2" alt="Cover for Writing An Interpreter In Go"></a>
+  <a href="https://interpreterbook.com">Writing An Interpreter In Go</a> was published in 2016, its latest version (1.6) was released in 2019.
+</div>
 
-<a href="https://interpreterbook.com">Writing An Interpreter In Go</a> was
-published in 2016, its latest version (1.6) was released in 2019.
+<div class="book-section clearfix">
+  <h4>The Lost Chapter: A Macro System For Monkey</h4>
+  <a href="https://interpreterbook.com/lost"><img src="/images/lost_chapter_cover.png" class="cover mb-2 mr-2 float-left" alt="Cover for The Lost Chapter"></a>
+  <a href="https://interpreterbook.com/lost">The Lost Chapter: A Macro System For Monkey</a> was published in 2017 as a free addition to Writing An Interpreter In Go.
+</div>
 
-#### The Lost Chapter: A Macro System For Monkey
-
-<a href="https://interpreterbook.com/lost">The Lost Chapter: A Macro System For
-Monkey</a> was
-published in 2017 as a free addition to Writing An Interpreter In Go.
-
-#### Writing A Compiler In Go
-
-<a href="https://compilerbook.com">Writing A Compiler In Go</a> was
-published in 2018, its latest version (1.1) was released in 2019.
-
+<div class="book-section clearfix">
+  <h4>Writing A Compiler In Go</h4>
+  <a href="https://compilerbook.com"><img src="/images/wacig_cover.png" class="cover mb-2 mr-2 float-left" alt="Cover for Writing A Compiler In Go"></a>
+  <a href="https://compilerbook.com">Writing A Compiler In Go</a> was published in 2018, its latest version (1.1) was released in 2019.
+</div>
 
 ### Monkeys In The Wild
 
