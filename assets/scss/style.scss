@@ -79,7 +79,7 @@ $paragraph-color: #333;
 @import 'components/page';
 @import 'components/header';
 
-.custom-toggler .navbar-toggler {
+.custom-toggler.navbar-toggler {
     border-color: $primary;
 }
 .custom-toggler .navbar-toggler-icon {

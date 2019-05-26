@@ -3781,7 +3781,7 @@ tbody.collapse.show {
 .lock-scroll .header.header-absolute {
   position: static; }
 
-.custom-toggler .navbar-toggler {
+.custom-toggler.navbar-toggler {
   border-color: #E9221C; }
 
 .custom-toggler .navbar-toggler-icon {
