@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "The Monkey programming language"
 theme = "whisper"
 
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true

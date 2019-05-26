@@ -16,20 +16,26 @@
 {{ end }}
 
 {{ define "main" }}
-<div class="strip">
-  <div class="container pt-4 pb-16">
-    <div class="row">
-      <div class="col col-md-10 offset-md-1">
-        <div class="content">
+<div class="container pt-4 pb-16">
+  <div class="row">
+    <div class="col col-md-10 offset-md-1">
+      <div class="content">
 
-          <h1 id="title">Monkey</h1>
-          <h2 id="subtitle">The programming language that lives in books</h2>
+        <h1 id="title">Monkey</h1>
+        <h2 id="subtitle">The programming language that lives in books</h2>
 
-          {{ if .Content }}
-          {{ .Content }}
-          {{ end }}
-        </div>
+        {{ if .Content }}
+        {{ .Content }}
+        {{ end }}
       </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col col-md-10 offset-md-1 text-center mt-3 mb-3">
+      Copyright © 2019 <a href="https://thorstenball.com">Thorsten Ball</a>. All rights reserved.
     </div>
   </div>
 </div>
