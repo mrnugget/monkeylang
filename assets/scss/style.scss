@@ -11,6 +11,11 @@ $primary: $cover-red-color;
 $secondary: #ffca28;
 $black: #212529;
 
+
+  // .navbar-toggler-icon {
+  //   background-image: $navbar-light-toggler-icon-bg;
+  // }
+
 // Links
 $link-color: $primary;
 $link-decoration: none;
@@ -42,13 +47,13 @@ $paragraph-color: #333;
 // @import "bootstrap/code";
 // @import "bootstrap/forms";
 // @import "bootstrap/buttons";
-// @import "bootstrap/transitions";
+@import "bootstrap/transitions";
 // @import "bootstrap/dropdown";
 // @import "bootstrap/button-group";
 // @import "bootstrap/input-group";
 // @import "bootstrap/custom-forms";
-// @import "bootstrap/nav";
-// @import "bootstrap/navbar";
+@import "bootstrap/nav";
+@import "bootstrap/navbar";
 // @import "bootstrap/card";
 // @import "bootstrap/breadcrumb";
 // @import "bootstrap/pagination";
@@ -71,26 +76,22 @@ $paragraph-color: #333;
 
 
 // Components
-// @import 'components/reset';
-// @import 'components/type';
 @import 'components/page';
 @import 'components/header';
-// @import 'components/footer';
-// @import 'components/sub-footer';
-@import 'components/logo';
-@import 'components/main-menu';
-@import 'components/main-menu-mobile';
-// @import 'components/docs-menu';
-// @import 'components/hamburger';
-// @import 'components/buttons';
-// @import 'components/title';
-// @import 'components/content';
-// @import 'components/strip';
-// @import 'components/whitebox';
-// @import 'components/overview';
+
+.custom-toggler .navbar-toggler {
+    border-color: $primary;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(212, 63, 78, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
 
 h3 { margin-top: 5rem; margin-bottom: 1rem; }
 h4 { margin-bottom: 0.8rem; }
+
+.navbar {
+  background: white;
+}
 
 #title {
   margin-top: 1em;
