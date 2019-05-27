@@ -30,9 +30,6 @@ $font-family-serif: Helvetica, Arial, sans-serif, -apple-system;
 $font-family-mono: 'Roboto Mono', monospace;
 $line-height-base: 1.4;
 
-// Headings & Paragraph
-$paragraph-color: #333;
-
 // Bootstrap
 @import 'bootstrap/functions';
 @import 'bootstrap/variables';
@@ -79,20 +76,20 @@ $paragraph-color: #333;
 @import 'components/page';
 @import 'components/header';
 
-.custom-toggler.navbar-toggler {
-    border-color: $primary;
-}
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(212, 63, 78, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+// Navbar
+.custom-toggler {
+  border-color: $primary;
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(233, 34, 28, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
 }
 
+// Headers
 h3 { margin-top: 5rem; margin-bottom: 1rem; }
 h4 { margin-bottom: 0.8rem; }
 
-.navbar {
-  background: white;
-}
-
+// Single elements
 #title {
   margin-top: 1em;
   font-size: $font-size-base * 4;
