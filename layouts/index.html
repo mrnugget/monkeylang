@@ -21,8 +21,12 @@
     <div class="col col-md-10 offset-md-1">
       <div class="content">
 
-        <h1 id="title">Monkey</h1>
-        <h2 id="subtitle">The programming language that lives in books</h2>
+        <div id="title-container" class="clearfix">
+          <img alt="Monkey logo" class="float-left mr-4 mb-5" src="{{ .Site.Params.logo.standard | relURL }}" width="120"/>
+
+          <h1 id="title">Monkey</h1>
+          <h2 id="subtitle">The programming language that lives in books</h2>
+        </div>
 
         {{ if .Content }}
         {{ .Content }}

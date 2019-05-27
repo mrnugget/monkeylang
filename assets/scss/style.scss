@@ -90,11 +90,14 @@ h3 { margin-top: 5rem; margin-bottom: 1rem; }
 h4 { margin-bottom: 0.8rem; }
 
 // Single elements
+#title-container {
+  margin-top: 6em;
+  margin-bottom: 6em;
+}
+
 #title {
-  margin-top: 1em;
   font-size: $font-size-base * 4;
   line-height: 1.1;
-  // font-family: $font-family-base;
   letter-spacing: -0.2px;
   font-weight: 100;
   // @include media-breakpoint-up(md) {
@@ -105,10 +108,8 @@ h4 { margin-bottom: 0.8rem; }
 #subtitle {
   font-size: $font-size-base * 2;
   line-height: 1.4;
-  // font-family: $font-family-base;
   letter-spacing: -0.2px;
   font-weight: 200;
-  margin-bottom: 4em;
   // @include media-breakpoint-up(md) {
   //   font-size: 1.6rem;
   // }
