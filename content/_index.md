@@ -109,7 +109,6 @@ Mico ("Monkey" in catalan). Monkey language implementation done with C++. Includ
 A fully working interpreter for the Monkey programming language as known from the book _Writing an Interpreter in Go_, written in Dart.
 {{< /monkey-implementation >}}
 
-{{< monkey-implementation "ledbutter" "FsharpMonkeyInterpreter" "F#" />}}
 {{< monkey-implementation "abs-lang" "abs" "Go" />}}
 
 {{< monkey-implementation "tsuyoshiwada" "rs-monkey-lang" "Rust">}}
@@ -137,7 +136,17 @@ This repository contains a C# port of the Monkey programming language from the W
 {{< monkey-implementation "ofux" "deluge" "Go" />}}
 {{< monkey-implementation "abhinav-upadhyay" "cmonkey" "C" />}}
 {{< monkey-implementation "ELD" "monkey-lang-go" "Go" />}}
-{{< monkey-implementation "geovanisouza92" "geo" />}}
+{{< monkey-implementation "geovanisouza92" "geo" "Go" >}}
+The **geo** programming language based on Monkey.
+
+Special features:
+
+* All functions are curried
+* Scopes lives on blocks, no name clashes
+* Pipe operator: the result of one expression becomes the last argument on a subsequent function call expression
+* Unicode support
+{{< /monkey-implementation >}}
+
 {{< monkey-implementation "thosakwe" "monkey2dart" "Dart" />}}
 {{< monkey-implementation "noraesae" "monkey-hs" "Haskell" />}}
 {{< monkey-implementation "MrTraan" "monkey" "Go" />}}
