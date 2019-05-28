@@ -16,16 +16,20 @@
 {{ end }}
 
 {{ define "main" }}
-<div class="container pt-4 pb-16">
+<div class="container pt-2 pt-s-4 pb-16">
   <div class="row">
     <div class="col col-md-10 offset-md-1">
       <div class="content">
 
-        <div id="title-container" class="clearfix">
-          <img alt="Monkey logo" class="float-left mr-4 mb-5" src="{{ .Site.Params.logo.standard | relURL }}" width="120"/>
+        <div id="title-container" class="mt-2 mb-2 mt-md-6 mb-md-6 clearfix">
+          <div class="text-center float-md-left">
+          <img alt="Monkey logo" class="mb-3 mt-md-4 mt-lg-0 mr-md-4 mb-md-5" src="{{ .Site.Params.logo.standard | relURL }}" width="120"/>
+          </div>
 
+          <div>
           <h1 id="title">Monkey</h1>
           <h2 id="subtitle">The programming language that lives in books</h2>
+          </div>
         </div>
 
         {{ if .Content }}
