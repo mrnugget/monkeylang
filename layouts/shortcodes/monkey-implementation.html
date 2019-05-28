@@ -1,6 +1,14 @@
 <li class="mb-4 p-3 border border-light-grey rounded monkey-implementation">
-  <div class="title">
-  <a href="https://github.com/{{ index .Params 0 }}">{{ index .Params 0 }}</a> / <b><a href="https://github.com/{{ index .Params 0 }}/{{ index .Params 1 }}">{{ index .Params 1 }}</a></b>
+  <div class="d-flex">
+    <div>
+    <a href="https://github.com/{{ index .Params 0 }}">{{ index .Params 0 }}</a> / <b><a href="https://github.com/{{ index .Params 0 }}/{{ index .Params 1 }}">{{ index .Params 1 }}</a></b>
+    </div>
+
+    {{ if index .Params 2 }}
+    <div class="ml-auto">
+      <span class="font-weight-light">{{ index .Params 2 }}</span>
+    </div>
+    {{ end }}
   </div>
   {{ if .Inner }}
     <hr class="mt-3 mb-3">

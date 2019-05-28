@@ -84,19 +84,19 @@ adder(8); // => 11
 
 <ul class="list-unstyled pl-2">
 
-{{< monkey-implementation "fabrik42" "writing_an_interpreter_in_elixir" >}}
+{{< monkey-implementation "fabrik42" "writing_an_interpreter_in_elixir" "Elixir">}}
 Elixir implementation of an interpreter for the Monkey programming language.
 {{< /monkey-implementation >}}
 
-{{< monkey-implementation "prologic" "monkey-lang" >}}
+{{< monkey-implementation "prologic" "monkey-lang" "Go">}}
 A step-by-step walk-through where each commit is a fully working part.
 {{< /monkey-implementation >}}
 
-{{< monkey-implementation "shioyama18" "monkey-wasm" >}}
+{{< monkey-implementation "shioyama18" "monkey-wasm" "Rust">}}
 Rust implementation of Monkey programming language from the book Writing an Interpreter in Go. This interpreter is also compiled into WebAssembly format so it can run on browser.
 {{< /monkey-implementation >}}
 
-{{< monkey-implementation "newenclave" "mico" >}}
+{{< monkey-implementation "newenclave" "mico" "C++">}}
 Mico ("Monkey" in catalan). Monkey language implementation done with C++. Including a ton of extensions:
 
 * Modules
@@ -105,25 +105,42 @@ Mico ("Monkey" in catalan). Monkey language implementation done with C++. Includ
 * Intervals
 {{< /monkey-implementation >}}
 
-{{< monkey-implementation "Bo0km4n" "dummy-monkey" />}}
-{{< monkey-implementation "mreichelt" "monkey-dart" />}}
-{{< monkey-implementation "ledbutter" "FsharpMonkeyInterpreter" />}}
-{{< monkey-implementation "abs-lang" "abs" />}}
-{{< monkey-implementation "tsuyoshiwada" "rs-monkey-lang" />}}
-{{< monkey-implementation "skx" "monkey/" />}}
-{{< monkey-implementation "Rydgel" "monkey-rust" />}}
-{{< monkey-implementation "utatti" "monkey-rs" />}}
-{{< monkey-implementation "ronnieholm" "MonkeyLang" />}}
-{{< monkey-implementation "goby-lang" "goby" />}}
-{{< monkey-implementation "newenclave" "mico" />}}
-{{< monkey-implementation "ofux" "deluge" />}}
-{{< monkey-implementation "abhinav-upadhyay" "cmonkey" />}}
-{{< monkey-implementation "ELD" "monkey-lang-go" />}}
+{{< monkey-implementation "mreichelt" "monkey-dart" "Dart">}}
+A fully working interpreter for the Monkey programming language as known from the book _Writing an Interpreter in Go_, written in Dart.
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "ledbutter" "FsharpMonkeyInterpreter" "F#" />}}
+{{< monkey-implementation "abs-lang" "abs" "Go" />}}
+
+{{< monkey-implementation "tsuyoshiwada" "rs-monkey-lang" "Rust">}}
+Monkey Programming Language written in Rust. Including *compilation to WASM* and an *online playground*
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "skx" "monkey" "Go">}}
+This repository started life as the implementation written by gaufung, but it has now diverged significantly in terms of both features and implementation. Including:
+
+* File I/O
+* A standard library
+* Postfix operators
+* Function argument defaults
+
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "Rydgel" "monkey-rust" "Rust" />}}
+{{< monkey-implementation "utatti" "monkey-rs" "Rust" />}}
+
+{{< monkey-implementation "ronnieholm" "MonkeyLang" "C#" >}}
+This repository contains a C# port of the Monkey programming language from the Writing an interpreter in Go book. Its code closely resembles that presented in the book, but written in idiomatic C# for the .NET Core runtime. Using the instructions below, the interpreter runs on both Windows, Mac, and Linux.
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "goby-lang" "goby" "Go" />}}
+{{< monkey-implementation "ofux" "deluge" "Go" />}}
+{{< monkey-implementation "abhinav-upadhyay" "cmonkey" "C" />}}
+{{< monkey-implementation "ELD" "monkey-lang-go" "Go" />}}
 {{< monkey-implementation "geovanisouza92" "geo" />}}
-{{< monkey-implementation "thosakwe" "monkey2dart" />}}
-{{< monkey-implementation "noraesae" "monkey-hs" />}}
-{{< monkey-implementation "chr4" "writing_an_interpreter_in_rust" />}}
-{{< monkey-implementation "MrTraan" "monkey" />}}
+{{< monkey-implementation "thosakwe" "monkey2dart" "Dart" />}}
+{{< monkey-implementation "noraesae" "monkey-hs" "Haskell" />}}
+{{< monkey-implementation "MrTraan" "monkey" "Go" />}}
 
 </ul>
 
