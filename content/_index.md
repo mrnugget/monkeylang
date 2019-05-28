@@ -15,24 +15,25 @@ then as a bytecode compiler and virtual machine.
 It looks like this:
 
 ```javascript
-// Integers & arithmetic expressions
+// Monkey has integers & arithmetic expressions...
 let version = 1 + (50 / 2) - (8 * 3);
 
-// Strings
+// ... and strings
 let name = "The Monkey programming language";
 
-// Booleans
+// ... booleans
 let isMonkeyFastNow = true;
 
-// Arrays & Hashes
+// ... even arrays & hashes
 let people = [{"name": "Anna", "age": 24}, {"name": "Bob", "age": 99}];
 
-// Functions
+// It also has functions!
 let getName = fn(person) { person["name"]; };
 getName(people[0]); // => "Anna"
 getName(people[1]); // => "Bob"
 
-// Recursive functions, conditionals, implicit and explicit returning of values
+// Combined with conditionals, implicit and explicit returns and the fact that
+// functions can be recursive gets you this:
 let fibonacci = fn(x) {
   if (x == 0) {
     0
@@ -45,8 +46,10 @@ let fibonacci = fn(x) {
   }
 };
 
-// Closures!
-
+// And the crown jewel in every Monkey implementation:
+// 
+// closures!
+// 
 // `newAdder` returns a closure that makes use of the free variables `a` and `b`:
 let newAdder = fn(a, b) {
     fn(c) { a + b + c };
@@ -56,7 +59,6 @@ let adder = newAdder(1, 2);
 
 adder(8); // => 11
 ```
-
 
 ### Books
 
@@ -80,31 +82,49 @@ adder(8); // => 11
 
 ### Monkeys In The Wild
 
-* [github.com/fabrik42/writing_an_interpreter_in_elixir/](https://github.com/fabrik42/writing_an_interpreter_in_elixir/)
-* [github.com/prologic/monkey-lang](https://github.com/prologic/monkey-lang)
-* [github.com/shioyama18/monkey-wasm](https://github.com/shioyama18/monkey-wasm)
-* [github.com/Bo0km4n/dummy-monkey](https://github.com/Bo0km4n/dummy-monkey)
-* [github.com/mreichelt/monkey-dart](https://github.com/mreichelt/monkey-dart)
-* [github.com/ledbutter/FsharpMonkeyInterpreter](https://github.com/ledbutter/FsharpMonkeyInterpreter)
-* [github.com/abs-lang/abs/blob/master/README.md](https://github.com/abs-lang/abs/blob/master/README.md)
-* [github.com/tsuyoshiwada/rs-monkey-lang](https://github.com/tsuyoshiwada/rs-monkey-lang)
-* [tsuyoshiwada.github.io/rs-monkey-lang/](https://tsuyoshiwada.github.io/rs-monkey-lang/)
-* [blog.wadackel.me/2018/rs-monkey-lang/](https://blog.wadackel.me/2018/rs-monkey-lang/)
-* [github.com/skx/monkey/](https://github.com/skx/monkey/)
-* [github.com/Rydgel/monkey-rust](https://github.com/Rydgel/monkey-rust)
-* [github.com/utatti/monkey-rs](https://github.com/utatti/monkey-rs)
-* [github.com/ronnieholm/MonkeyLang](https://github.com/ronnieholm/MonkeyLang)
-* [github.com/goby-lang/goby](https://github.com/goby-lang/goby)
-* [github.com/newenclave/mico](https://github.com/newenclave/mico)
-* [github.com/ofux/deluge](https://github.com/ofux/deluge)
-* [github.com/newenclave/mico/blob/master/drafts/tail_recursion.md](https://github.com/newenclave/mico/blob/master/drafts/tail_recursion.md)
-* [github.com/abhinav-upadhyay/cmonkey](https://github.com/abhinav-upadhyay/cmonkey)
-* [github.com/ELD/monkey-lang-go](https://github.com/ELD/monkey-lang-go)
-* [github.com/geovanisouza92/geo?cn=cmVwbHk%3D](https://github.com/geovanisouza92/geo?cn=cmVwbHk%3D)
-* [github.com/thosakwe/monkey2dart/blob/master/README.md](https://github.com/thosakwe/monkey2dart/blob/master/README.md)
-* [github.com/noraesae/monkey-hs](https://github.com/noraesae/monkey-hs)
-* [marcreichelt.de/monkey-shell/](https://marcreichelt.de/monkey-shell/)
-* [github.com/chr4/writing_an_interpreter_in_rust](https://github.com/chr4/writing_an_interpreter_in_rust)
-* [github.com/MrTraan/monkey](https://github.com/MrTraan/monkey)
+<ul class="list-unstyled pl-2">
+
+{{< monkey-implementation "fabrik42" "writing_an_interpreter_in_elixir" >}}
+Elixir implementation of an interpreter for the Monkey programming language.
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "prologic" "monkey-lang" >}}
+A step-by-step walk-through where each commit is a fully working part.
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "shioyama18" "monkey-wasm" >}}
+Rust implementation of Monkey programming language from the book Writing an Interpreter in Go. This interpreter is also compiled into WebAssembly format so it can run on browser.
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "newenclave" "mico" >}}
+Mico ("Monkey" in catalan). Monkey language implementation done with C++. Including a ton of extensions:
+
+* Modules
+* Mutability
+* For-loops
+* Intervals
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "Bo0km4n" "dummy-monkey" />}}
+{{< monkey-implementation "mreichelt" "monkey-dart" />}}
+{{< monkey-implementation "ledbutter" "FsharpMonkeyInterpreter" />}}
+{{< monkey-implementation "abs-lang" "abs" />}}
+{{< monkey-implementation "tsuyoshiwada" "rs-monkey-lang" />}}
+{{< monkey-implementation "skx" "monkey/" />}}
+{{< monkey-implementation "Rydgel" "monkey-rust" />}}
+{{< monkey-implementation "utatti" "monkey-rs" />}}
+{{< monkey-implementation "ronnieholm" "MonkeyLang" />}}
+{{< monkey-implementation "goby-lang" "goby" />}}
+{{< monkey-implementation "newenclave" "mico" />}}
+{{< monkey-implementation "ofux" "deluge" />}}
+{{< monkey-implementation "abhinav-upadhyay" "cmonkey" />}}
+{{< monkey-implementation "ELD" "monkey-lang-go" />}}
+{{< monkey-implementation "geovanisouza92" "geo" />}}
+{{< monkey-implementation "thosakwe" "monkey2dart" />}}
+{{< monkey-implementation "noraesae" "monkey-hs" />}}
+{{< monkey-implementation "chr4" "writing_an_interpreter_in_rust" />}}
+{{< monkey-implementation "MrTraan" "monkey" />}}
+
+</ul>
 
 Built your own version of Monkey? Let me know!

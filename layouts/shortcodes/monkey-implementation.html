@@ -1,0 +1,10 @@
+<li class="mb-4 monkey-implementation">
+  <div class="title">
+  <a href="https://github.com/{{ index .Params 0 }}">{{ index .Params 0 }}</a> / <b><a href="https://github.com/{{ index .Params 0 }}/{{ index .Params 1 }}">{{ index .Params 1 }}</a></b>
+  </div>
+  {{ if .Inner }}
+    <div class="description">
+    {{ .Inner | markdownify }}
+    </div>
+  {{ end }}
+</li>
