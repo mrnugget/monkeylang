@@ -2,8 +2,8 @@
   <div class="title">
   <a href="https://github.com/{{ index .Params 0 }}">{{ index .Params 0 }}</a> / <b><a href="https://github.com/{{ index .Params 0 }}/{{ index .Params 1 }}">{{ index .Params 1 }}</a></b>
   </div>
-  <hr class="mt-3 mb-3">
   {{ if .Inner }}
+    <hr class="mt-3 mb-3">
     <div class="description">
     {{ .Inner | markdownify }}
     </div>
