@@ -2,9 +2,14 @@ $cover-red-color: #E9221C;
 $interpreter-book-background: #151515;
 $compiler-book-background: #FFFFF8;
 
+$theme-colors: (
+  "cover-red": $cover-red-color,
+  "light-grey": #f2f2f2
+);
+
 $primary: $cover-red-color;
-$secondary: #ffca28;
-$black: #212529;
+// $secondary: #ffca28;
+// $black: #212529;
 
 // Bootstrap overwrites
 $body-color: $interpreter-book-background;
