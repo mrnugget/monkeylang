@@ -105,6 +105,14 @@ Mico ("Monkey" in catalan). Monkey language implementation done with C++. Includ
 * Intervals
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "michalholasek" "monkey-lang" "Typescript">}}
+A full Monkey implementation in Typescript
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "michalholasek" "monkey-lang-vm" "C#">}}
+A full Monkey implementation of the bytecode compiler and VM from _Writing A Compiler In Go_ in C#
+{{< /monkey-implementation >}}
+
 {{< monkey-implementation "mreichelt" "monkey-dart" "Dart">}}
 A fully working interpreter for the Monkey programming language as known from the book _Writing an Interpreter in Go_, written in Dart.
 {{< /monkey-implementation >}}
