@@ -14,14 +14,14 @@ pygmentsUseClasses = true
     weight = 1
 
 [[menu.main]]
-    name = "Books"
-    url = "#books"
+    name = "The Monkey Canon"
+    url = "#the-monkey-canon"
     weight = 2
 
 [[menu.main]]
     name = "Monkeys in the wild"
     url = "#monkeys-in-the-wild"
-    weight = 2
+    weight = 3
 
 [params]
   google_analytics_id=""

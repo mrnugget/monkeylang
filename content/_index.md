@@ -12,10 +12,10 @@ There is no official implementation of Monkey — it lives in these books and it
 up to you, the reader, to implement it. First as a tree-walking interpreter,
 then as a bytecode compiler and virtual machine.
 
-It looks like this:
+Here is what Monkey looks like:
 
 ```javascript
-// Monkey has integers & arithmetic expressions...
+// Integers & arithmetic expressions...
 let version = 1 + (50 / 2) - (8 * 3);
 
 // ... and strings
@@ -24,16 +24,26 @@ let name = "The Monkey programming language";
 // ... booleans
 let isMonkeyFastNow = true;
 
-// ... even arrays & hashes
+// ... arrays & hash maps
 let people = [{"name": "Anna", "age": 24}, {"name": "Bob", "age": 99}];
+```
 
-// It also has functions!
+It also has functions!
+
+```javascript
+// User-defined functions...
 let getName = fn(person) { person["name"]; };
 getName(people[0]); // => "Anna"
 getName(people[1]); // => "Bob"
 
-// Combined with conditionals, implicit and explicit returns and the fact that
-// functions can be recursive gets you this:
+// and built-in functions
+puts(len(people))  // prints: 2
+```
+
+And it has conditionals, implicit and explicit returns and recursive functions,
+which means we can do this in Monkey:
+
+```javascript
 let fibonacci = fn(x) {
   if (x == 0) {
     0
@@ -45,11 +55,11 @@ let fibonacci = fn(x) {
     }
   }
 };
+```
 
-// And the crown jewel in every Monkey implementation:
-// 
-// closures!
-// 
+But the crown jewel in every Monkey implementation are closures:
+
+```javascript
 // `newAdder` returns a closure that makes use of the free variables `a` and `b`:
 let newAdder = fn(a, b) {
     fn(c) { a + b + c };
@@ -60,26 +70,78 @@ let adder = newAdder(1, 2);
 adder(8); // => 11
 ```
 
-### Books
+In _The Lost Chapter: A Macro System For Monkey_, we build a macro system into
+Monkey that allows us to write code to write code, like this:
+
+```javascript
+let unless = macro(condition, consequence, alternative) {
+  quote(if (!(unquote(condition))) {
+    unquote(consequence);
+  } else {
+    unquote(alternative);
+  });
+};
+
+unless(10 > 5, puts("not greater"), puts("greater"));
+// outputs only: "greater"
+```
+
+### The Monkey Canon
 
 <div class="book-section clearfix">
-  <h4>Writing An Interpreter In Go</h4>
   <p>
-    <a href="https://interpreterbook.com"><img src="/images/waiig_cover.png" class="cover float-left mb-2 mr-2" alt="Cover for Writing An Interpreter In Go"></a>
-    <a href="https://interpreterbook.com">Writing An Interpreter In Go</a> was published in 2016, its latest version (1.6) was released in 2019.
+    <a href="https://interpreterbook.com"><img src="/images/waiig_cover.png" class="cover border float-right mb-2 ml-4" alt="Cover for Writing An Interpreter In Go"></a>
+    <a href="https://interpreterbook.com">Writing An Interpreter In Go</a> was published in <b>2016</b>, its latest version (1.6) was released in 2019.
   </p>
+  <p>
+    The book defined the syntax of Monkey and describes its implementation as a
+    tree-walking interpreter with these features:
+  </p>
+  <ul>
+    <li>Integers, booleans, strings, arrays, hash maps</li>
+    <li>Arithmetic expressions</li>
+    <li>Let statements</li>
+    <li>First-class and higher-order functions</li>
+    <li>Built-in functions</li>
+    <li>Recursion</li>
+    <li>Closures</li>
+  </ul>
 </div>
 
-<div class="book-section clearfix">
-  <h4>The Lost Chapter: A Macro System For Monkey</h4>
-  <a href="https://interpreterbook.com/lost"><img src="/images/lost_chapter_cover.png" class="cover mb-2 mr-2 float-left" alt="Cover for The Lost Chapter"></a>
-  <a href="https://interpreterbook.com/lost">The Lost Chapter: A Macro System For Monkey</a> was published in 2017 as a free addition to Writing An Interpreter In Go.
-</div>
+<hr class="invisible" />
 
 <div class="book-section clearfix">
-  <h4>Writing A Compiler In Go</h4>
-  <a href="https://compilerbook.com"><img src="/images/wacig_cover.png" class="cover mb-2 mr-2 float-left" alt="Cover for Writing A Compiler In Go"></a>
-  <a href="https://compilerbook.com">Writing A Compiler In Go</a> was published in 2018, its latest version (1.1) was released in 2019.
+  <p>
+    <a href="https://interpreterbook.com/lost"><img src="/images/lost_chapter_cover.png" class="cover border mb-2 ml-4 float-right" alt="Cover for The Lost Chapter"></a>
+    <a href="https://interpreterbook.com/lost">The Lost Chapter: A Macro System For Monkey</a> was published in <b>2017</b> as a free (to read online or download) addition to <i>Writing An Interpreter In Go</i>.
+  <p/>
+
+  <p>It can be thought of as <i>Writing An Interpreter In Go</i>'s fifth chapter,
+  since builds directly upon the previous four chapters and extends the Monkey interpreter
+  as it stands at the end of the book.</p>
+
+  <p><i>The Lost Chapter: A Macro System For Monkey</i> adds a fully-working Lisp-style <b>macro system</b> to Monkey, that's close to the way Elixir's macro system works.</p>
+</div>
+
+<hr class="invisible" />
+
+<div class="book-section clearfix">
+  <p>
+    <a href="https://compilerbook.com"><img src="/images/wacig_cover.png" class="cover border mb-2 ml-4 float-right" alt="Cover for Writing A Compiler In Go"></a>
+    <a href="https://compilerbook.com">Writing A Compiler In Go</a> was published in <b>2018</b> and its latest version (1.1) in came out in 2019.
+  <p/>
+
+  <p>
+  This book is the sequel to <i>Writing An Interpreter In Go</i> and while it
+  does not change its syntax and does not add any features, it changes the
+  implementation of Monkey from a tree-walking interpreter into a bytecode
+  compiler and virtual machine!
+  </p>
+
+  <p>
+    At the end of the book, Monkey looks and behaves exactly as it did at the end
+    of <i>Writing An Interpreter In Go</i>, except that <i>it's 3x faster!</i>
+  </p>
 </div>
 
 ### Monkeys In The Wild
