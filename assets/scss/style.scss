@@ -30,6 +30,17 @@ $line-height-base: 1.4;
 // Bootstrap
 @import 'bootstrap/functions';
 @import 'bootstrap/variables';
+$spacers: map-merge(
+  (
+    5: ($spacer * 3),
+    6: ($spacer * 4),
+    7: ($spacer * 5),
+    8: ($spacer * 6),
+    9: ($spacer * 7)
+  ),
+  $spacers
+);
+
 @import 'bootstrap/mixins';
 @import 'bootstrap/root';
 @import 'bootstrap/reboot';
@@ -77,15 +88,10 @@ $line-height-base: 1.4;
 }
 
 // Headers
-h3 { margin-top: 5rem; margin-bottom: 1rem; }
+h3 { margin-top: 6rem; margin-bottom: 1.5rem; }
 h4 { margin-bottom: 0.8rem; }
 
 // Single elements
-#title-container {
-  margin-top: 6em;
-  margin-bottom: 6em;
-}
-
 #title {
   font-size: $font-size-base * 4;
   line-height: 1.1;
