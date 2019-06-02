@@ -27,12 +27,12 @@ pygmentsUseClasses = true
   google_analytics_id=""
 
   [params.homepage_meta_tags]
-    meta_description = "Monkey is the programming language that lives in books"
-    meta_og_title = "Monkey"
+    meta_description = "Monkey, the programming language that lives in books"
+    meta_og_title = "The Monkey programming language"
     meta_og_type = "website"
     meta_og_url = "https://monkeylang.org"
     meta_og_image = "https://monkeylang.org/images/logo.png"
-    meta_og_description = "Monkey is the programming language that lives in books"
+    meta_og_description = "Monkey, the programming language that lives in books"
     meta_twitter_card = "summary"
     meta_twitter_site = "@thorstenball"
     meta_twitter_creator = "@thorstenball"
