@@ -64,8 +64,10 @@ adder(8); // => 11
 
 <div class="book-section clearfix">
   <h4>Writing An Interpreter In Go</h4>
-  <a href="https://interpreterbook.com"><img src="/images/waiig_cover.png" class="cover float-left mb-2 mr-2" alt="Cover for Writing An Interpreter In Go"></a>
-  <a href="https://interpreterbook.com">Writing An Interpreter In Go</a> was published in 2016, its latest version (1.6) was released in 2019.
+  <p>
+    <a href="https://interpreterbook.com"><img src="/images/waiig_cover.png" class="cover float-left mb-2 mr-2" alt="Cover for Writing An Interpreter In Go"></a>
+    <a href="https://interpreterbook.com">Writing An Interpreter In Go</a> was published in 2016, its latest version (1.6) was released in 2019.
+  </p>
 </div>
 
 <div class="book-section clearfix">
@@ -82,14 +84,24 @@ adder(8); // => 11
 
 ### Monkeys In The Wild
 
+Some readers love to take little detours when following along with the books.
+They choose a different implementation language, for example, or put a little
+twist on Monkey's syntax. Others add new features to Monkey: a new operator,
+more built-in functions, a standard library. Some go even further and turn
+Monkey into a DSL for a completely different project.
+
+Since all of the code that's presented in the books is MIT licensed, you are
+free to turn your Monkey implementation into whatever your imagination comes up
+with and showcase the result to the world (I'd appreciate a mention of the
+books).
+
+Collected here are some of these Monkey implementations that readers have shared
+with me:
+
 <ul class="list-unstyled pl-2">
 
 {{< monkey-implementation "fabrik42" "writing_an_interpreter_in_elixir" "Elixir">}}
-Elixir implementation of an interpreter for the Monkey programming language.
-{{< /monkey-implementation >}}
-
-{{< monkey-implementation "prologic" "monkey-lang" "Go">}}
-A step-by-step walk-through where each commit is a fully working part.
+An implementation of Monkey in Elixir
 {{< /monkey-implementation >}}
 
 {{< monkey-implementation "shioyama18" "monkey-wasm" "Rust">}}
@@ -105,8 +117,12 @@ Mico ("Monkey" in catalan). Monkey language implementation done with C++. Includ
 * Intervals
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "prologic" "monkey-lang" "Go">}}
+A step-by-step walk-through where each commit is a fully working part.
+{{< /monkey-implementation >}}
+
 {{< monkey-implementation "michalholasek" "monkey-lang" "Typescript">}}
-A full Monkey implementation in Typescript
+A complete Monkey implementation in Typescript
 {{< /monkey-implementation >}}
 
 {{< monkey-implementation "michalholasek" "monkey-lang-vm" "C#">}}
@@ -120,7 +136,7 @@ A fully working interpreter for the Monkey programming language as known from th
 {{< monkey-implementation "abs-lang" "abs" "Go" />}}
 
 {{< monkey-implementation "tsuyoshiwada" "rs-monkey-lang" "Rust">}}
-Monkey Programming Language written in Rust. Including *compilation to WASM* and an *online playground*
+Monkey programming language written in Rust. Including *compilation to WASM* and an *online playground*
 {{< /monkey-implementation >}}
 
 {{< monkey-implementation "skx" "monkey" "Go">}}
@@ -161,4 +177,5 @@ Special features:
 
 </ul>
 
-Built your own version of Monkey? Let me know!
+Built your own version of Monkey? Let me know! Just send me an email to
+**me&nbsp;@&nbsp;thorstenball.com**
