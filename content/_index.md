@@ -160,7 +160,7 @@ books).
 Collected here are some of these Monkey implementations that readers have shared
 with me:
 
-<ul class="list-unstyled pl-2">
+<ul class="list-unstyled pl-2 mt-5 mb-3">
 
 {{< monkey-implementation "fabrik42" "writing_an_interpreter_in_elixir" "Elixir">}}
 An implementation of Monkey in Elixir

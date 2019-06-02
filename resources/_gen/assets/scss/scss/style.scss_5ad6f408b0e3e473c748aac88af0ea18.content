@@ -4582,7 +4582,8 @@ tbody.collapse.show {
 
 h3 {
   margin-top: 6rem;
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1.5rem;
+  font-size: 2.6em; }
 
 h4 {
   margin-bottom: 0.8rem; }
