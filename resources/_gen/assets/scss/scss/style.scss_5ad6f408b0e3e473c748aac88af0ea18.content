@@ -4588,6 +4588,11 @@ h3 {
 h4 {
   margin-bottom: 0.8rem; }
 
+pre {
+  font-size: 0.88rem;
+  margin-left: 2rem;
+  padding: 0.5rem; }
+
 #title {
   font-size: 4.4rem;
   line-height: 1.1;
@@ -4599,10 +4604,6 @@ h4 {
   line-height: 1.4;
   letter-spacing: -0.2px;
   font-weight: 200; }
-
-pre {
-  font-size: 0.88rem;
-  padding: 0.5rem; }
 
 .cover {
   max-height: 150px; }

@@ -91,30 +91,26 @@ $spacers: map-merge(
 h3 { margin-top: 6rem; margin-bottom: 1.5rem; font-size: 2.6em; }
 h4 { margin-bottom: 0.8rem; }
 
+// Code
+pre {
+  font-size: $font-size-base * 0.8;
+  margin-left: 2rem;
+  padding: 0.5rem;
+}
+
 // Single elements
 #title {
   font-size: $font-size-base * 4;
   line-height: 1.1;
   letter-spacing: -0.2px;
   font-weight: 100;
-  // @include media-breakpoint-up(md) {
-  //   font-size: 3rem;
-  //   margin-bottom: 30px;
-  // }
 }
+
 #subtitle {
   font-size: $font-size-base * 2;
   line-height: 1.4;
   letter-spacing: -0.2px;
   font-weight: 200;
-  // @include media-breakpoint-up(md) {
-  //   font-size: 1.6rem;
-  // }
-}
-
-pre {
-  font-size: $font-size-base * 0.8;
-  padding: 0.5rem;
 }
 
 .cover {
