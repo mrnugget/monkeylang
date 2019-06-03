@@ -70,22 +70,6 @@ let adder = newAdder(1, 2);
 adder(8); // => 11
 ```
 
-In _The Lost Chapter: A Macro System For Monkey_, we build a macro system into
-Monkey that allows us to write code to write code, like this:
-
-```javascript
-let unless = macro(condition, consequence, alternative) {
-  quote(if (!(unquote(condition))) {
-    unquote(consequence);
-  } else {
-    unquote(alternative);
-  });
-};
-
-unless(10 > 5, puts("not greater"), puts("greater"));
-// outputs only: "greater"
-```
-
 ### The Monkey Canon
 
 <div class="book-section clearfix">
@@ -94,11 +78,13 @@ unless(10 > 5, puts("not greater"), puts("greater"));
     <a href="https://interpreterbook.com">Writing An Interpreter In Go</a> was published in <b>2016</b>, its latest version (1.6) was released in 2019.
   </p>
   <p>
-    The book defined the syntax of Monkey and describes its implementation as a
-    tree-walking interpreter with these features:
+    The first book in the Monkey Canon defines the syntax of Monkey and
+    describes its implementation as a tree-walking interpreter with the
+    following features:
   </p>
   <ul>
     <li>Integers, booleans, strings, arrays, hash maps</li>
+    <li>A REPL</li>
     <li>Arithmetic expressions</li>
     <li>Let statements</li>
     <li>First-class and higher-order functions</li>
@@ -135,7 +121,7 @@ unless(10 > 5, puts("not greater"), puts("greater"));
   This book is the sequel to <i>Writing An Interpreter In Go</i> and while it
   does not change its syntax and does not add any features, it changes the
   implementation of Monkey from a tree-walking interpreter into a bytecode
-  compiler and virtual machine!
+  compiler and virtual machine.
   </p>
 
   <p>
@@ -146,19 +132,17 @@ unless(10 > 5, puts("not greater"), puts("greater"));
 
 ### Monkeys In The Wild
 
-Some readers love to take little detours when following along with the books.
-They choose a different implementation language, for example, or put a little
-twist on Monkey's syntax. Others add new features to Monkey: a new operator,
-more built-in functions, a standard library. Some go even further and turn
-Monkey into a DSL for a completely different project.
+Some readers love to take little detours when following along with the books: a
+different implementation language, new features, a little twist on the syntax.
 
-Since all of the code that's presented in the books is MIT licensed, you are
-free to turn your Monkey implementation into whatever your imagination comes up
-with and showcase the result to the world (I'd appreciate a mention of the
-books).
+And since the code that's presented in the books is MIT licensed, everybody's
+free to turn their Monkey implementation into whatever their imagination comes
+up with and showcase it to the rest of the world.
 
-Collected here are some of these Monkey implementations that readers have shared
-with me:
+Collected here are some of those interesting and cool Monkey implementations
+readers have shared with me.
+
+Did you also built your own version of Monkey? Let me know, just send me an email to: **me&nbsp;@&nbsp;thorstenball.com**
 
 <ul class="list-unstyled pl-2 mt-5 mb-3">
 
@@ -239,5 +223,3 @@ Special features:
 
 </ul>
 
-Built your own version of Monkey? Let me know! Just send me an email to
-**me&nbsp;@&nbsp;thorstenball.com**
