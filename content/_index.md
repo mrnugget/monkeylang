@@ -195,6 +195,16 @@ This repository started life as the implementation written by gaufung, but it ha
 
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "abhinav-upadhyay" "cmonkey" "C" >}}
+A Monkey implementation in ISO C11 with additional features:
+
+- The `%` modulo operator
+- The logical `&&` and `||` operators
+- While-loops
+- A built-in `type()` function to determine the type of a Monkey value
+
+{{< /monkey-implementation >}}
+
 {{< monkey-implementation "Rydgel" "monkey-rust" "Rust" />}}
 {{< monkey-implementation "utatti" "monkey-rs" "Rust" />}}
 
@@ -204,7 +214,6 @@ This repository contains a C# port of the Monkey programming language from the W
 
 {{< monkey-implementation "goby-lang" "goby" "Go" />}}
 {{< monkey-implementation "ofux" "deluge" "Go" />}}
-{{< monkey-implementation "abhinav-upadhyay" "cmonkey" "C" />}}
 {{< monkey-implementation "ELD" "monkey-lang-go" "Go" />}}
 {{< monkey-implementation "geovanisouza92" "geo" "Go" >}}
 The **geo** programming language based on Monkey.
