@@ -220,6 +220,7 @@ Special features:
 {{< monkey-implementation "thosakwe" "monkey2dart" "Dart" />}}
 {{< monkey-implementation "noraesae" "monkey-hs" "Haskell" />}}
 {{< monkey-implementation "MrTraan" "monkey" "Go" />}}
+{{< monkey-implementation "JonnyWalker81" "monkey_interpreter" "Rust" />}}
 
 </ul>
 
