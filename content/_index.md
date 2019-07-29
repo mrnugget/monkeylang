@@ -230,6 +230,10 @@ Special features:
 {{< monkey-implementation "noraesae" "monkey-hs" "Haskell" />}}
 {{< monkey-implementation "MrTraan" "monkey" "Go" />}}
 {{< monkey-implementation "JonnyWalker81" "monkey_interpreter" "Rust" />}}
+{{< monkey-implementation "rainliu" "monkey" "Rust" />}}
+{{< monkey-implementation "zhuzilin" "monkey" "C++" >}}
+A Monkey implementation in C++ with its own *mark-and-sweep garbage collector*
+{{< /monkey-implementation >}}
 
 </ul>
 
