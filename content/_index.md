@@ -235,5 +235,42 @@ Special features:
 A Monkey implementation in C++ with its own *mark-and-sweep garbage collector*
 {{< /monkey-implementation >}}
 
+<li class="mb-4 p-3 border border-light-grey rounded monkey-implementation">
+  <div class="d-flex">
+    <div>
+    Frank Hoogerbeets' SharpBASIC (<a href="https://ditrianum.org/sb/sb.zip">.zip</a> / <a href="https://ditrianum.org/sb/sb.tar.gz">.tar.gz</a>)
+    </div>
+
+    <div class="ml-auto">
+      <span class="font-weight-light">Go</span>
+    </div>
+  </div>
+    <hr class="mt-3 mb-3">
+    <div class="description">
+    <p>
+    The SharpBASIC interpreter/compiler is based on Thorsten Ball's Monkey
+    language. But SharpBASIC is quite different and should be thought of as sort
+    of a BASIC/Pascal hybrid, but more powerful than BASIC and less verbose than
+    Pascal.
+    </p>
+
+    <p>The language is in its early stages. The interpreter works quite well and
+    there are many working examples in the <code>/ex</code> folder.</p>
+
+    <p>
+    The main characteristic of SharpBASIC is that all definition blocks are
+    marked by the keywords <code>OF..END</code>, while all execution blocks are
+    marked by the keywords <code>DO..END</code>. Look at the <code>CONST</code>,
+    <code>TYPES</code>, <code>IF</code>, <code>SELECT</code>, <code>FOR</code>,
+    <code>WHILE</code> and <code>FUNCTION</code> examples to see how block
+    statements are defined.
+    </p>
+
+    <p>
+    See the <code>info.txt</code> file contained in the archive for
+    information on how to use SharpBASIC.
+    </p>
+    </div>
+</li>
 </ul>
 
