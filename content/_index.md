@@ -272,5 +272,26 @@ A Monkey implementation in C++ with its own *mark-and-sweep garbage collector*
     </p>
     </div>
 </li>
+
+<li class="mb-4 p-3 border border-light-grey rounded monkey-implementation">
+  <div class="d-flex">
+    <div>
+    Noprianto's <a href="https://nopri.github.io/monkey.py">monkey.py</a>
+    </div>
+
+    <div class="ml-auto">
+      <span class="font-weight-light">Python</span>
+    </div>
+  </div>
+    <hr class="mt-3 mb-3">
+    <div class="description">
+    <p>
+      A really neat single-file implementation of Monkey in Python with less than
+      2000 lines of code. It is compatible with Python 2 and Python 3, starting
+      from Python 2.3. The tests are also in one file and can be found here in
+      <a href="https://github.com/nopri/nopri.github.io/blob/master/monkey_tests.py">monkey_tests.py</a>.
+    </p>
+    </div>
+</li>
 </ul>
 
