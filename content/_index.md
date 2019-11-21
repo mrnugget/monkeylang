@@ -293,5 +293,25 @@ A Monkey implementation in C++ with its own *mark-and-sweep garbage collector*
     </p>
     </div>
 </li>
+
+<li class="mb-4 p-3 border border-light-grey rounded monkey-implementation">
+  <div class="d-flex">
+    <div>
+    Noprianto's <a href="https://nopri.github.io/Monkey.java">Monkey.java</a>/<a href="https://nopri.github.io/Monkey.jar">Monkey.jar</a>
+    </div>
+    <div class="ml-auto">
+      <span class="font-weight-light">Java</span>
+    </div>
+  </div>
+    <hr class="mt-3 mb-3">
+    <div class="description">
+      <p>
+      This is a simple implementation of the Monkey interpreter in Java. It is compatible with Java 5.0 or later (developed in Java 8, with -source 1.5 -target 1.5, compilation/run test in Java 5.0, 8, and 13). Released as single-file source code, the code is not beautiful, but should work. A compiled Java archive (Monkey.jar) is also available for those who don’t want to compile themselves. Monkey.jar file is also compatible with Java 5.0.
+      </p>
+      <p>
+      Need to run Monkey on older systems? Monkey.java can even be compiled in Java 5.0 running on Windows 95 (which was released in 1995). Monkey.jar (released version, compiled in Java 8) can also run on Windows 95. Running latest or released-25-years-ago operating systems? No problem, Monkey is always there.
+      </p>
+    </div>
+</li>
 </ul>
 
