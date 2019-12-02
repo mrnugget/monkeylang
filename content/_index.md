@@ -309,7 +309,9 @@ A Monkey implementation in C++ with its own *mark-and-sweep garbage collector*
     </div>
 </li>
 
-{{< monkey-implementation "Delta456" "monkey_v" "V" />}}
+{{< monkey-implementation "Delta456" "monkey_v" "V" >}}
+An implementation of Monkey in V
+{{< /monkey-implementation >}}
 
 </ul>
 
