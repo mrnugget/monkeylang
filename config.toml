@@ -8,6 +8,9 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [[menu.main]]
     name = "What is Monkey?"
     url = "#what-is-monkey"
