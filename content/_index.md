@@ -313,5 +313,41 @@ A Monkey implementation in C++ with its own *mark-and-sweep garbage collector*
 An implementation of Monkey in V
 {{< /monkey-implementation >}}
 
+<li class="mb-4 p-3 border border-light-grey rounded monkey-implementation">
+  <div class="d-flex">
+    <div> Anthony Davis' <a href="https://en.langurlang.org/">langur</a> </div>
+    <div class="ml-auto">
+      <span class="font-weight-light">Go</span>
+    </div>
+  </div>
+  <hr class="mt-3 mb-3">
+  <div class="description">
+  <p>
+  langur is based on Monkey but it underwent a lot of changes and now has a ton
+  of features you won't find in Monkey:
+  </p>
+  <p>
+    <ul>
+      <li><code>given</code> expressions (langur's "switch")</li>
+      <li>semi-integrated regex</li>
+      <li>decimal floating point for numbers</li>
+      <li>number constants: pi, phi, e, n2, n10</li>
+      <li>automated for-loop over an array or string, or over a range</li>
+      <li>immutable or mutable declarations</li>
+      <li>decoupling assignments</li>
+      <li>block quote (similar to a "HEREDOC")</li>
+      <li>indexing strings by code point</li>
+      <li>indexing by arrays</li>
+      <li>exponent and root operators</li>
+      <li>catching exceptions without explicit try blocks</li>
+      <li>built-in functions such as <code>read()</code>, <code>map()</code>, <code>fold()</code>, <code>foldfrom()</code>, <code>where()</code></li>
+    </ul>
+  </p>
+  <p>
+  Anthony Davis also wrote a book about how he implemented some of langur's features in a virtual machine that's similar to the one in <a href="https://compilerbook.com">Writing A Compiler In Go</a>. You can find the book and a free sample at <a href="https://opcodebook.com/">opcodebook.com</a>.
+  </p>
+  </div>
+</li>
+
 </ul>
 
