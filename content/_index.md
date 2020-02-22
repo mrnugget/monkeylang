@@ -349,5 +349,11 @@ An implementation of Monkey in V
   </div>
 </li>
 
+{{< monkey-implementation "dannyvankooten" "monkey-c-monkey-do" "C" >}}
+Interpreter for the Monkey programming language, in C. <i>With the best name for
+a Monkey implementation yet.</i>
+{{< /monkey-implementation >}}
+
 </ul>
+
 
