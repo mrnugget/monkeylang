@@ -354,6 +354,10 @@ Interpreter for the Monkey programming language, in C. <i>With the best name for
 a Monkey implementation yet.</i>
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "Kashiwara0205" "monkey-nim" "Nim">}}
+An implementation of Monkey in Nim
+{{< /monkey-implementation >}}
+
 </ul>
 
 
