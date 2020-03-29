@@ -358,6 +358,12 @@ a Monkey implementation yet.</i>
 An implementation of Monkey in Nim
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "kgabis" "ape" "C">}}
+Ape is an offspring of Monkey, evolved to be more procedural with variables, loops, and more.
+
+It's implemented in a single C file as a bytecode compiler and VM, including a mark-and-sweep garbage collector.
+{{< /monkey-implementation >}}
+
 </ul>
 
 
