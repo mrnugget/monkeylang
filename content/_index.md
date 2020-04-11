@@ -370,6 +370,13 @@ Implementation of Monkey based on the original implementation in Writing An Inte
 
 {{< /monkey-implementation >}}
 
+
+{{< monkey-implementation "CDThomas" "ts-monkey" "TypeScript">}}
+
+A TypeScript implementation of Monkey along with an <a href="https://ts-monkey.now.sh/">in-browser editor, interpreter, and AST explorer</a>!
+
+{{< /monkey-implementation >}}
+
 </ul>
 
 
