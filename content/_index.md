@@ -364,6 +364,12 @@ Ape is an offspring of Monkey, evolved to be more procedural with variables, loo
 It's implemented in a single C file as a bytecode compiler and VM, including a mark-and-sweep garbage collector.
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "bradford-hamilton" "monkey-lang" "Go">}}
+
+Implementation of Monkey based on the original implementation in Writing An Interpreter In Go and Writing A Compiler In go, except that it has a ton of additional features, such as: logical operators, comments, constants, postfix operators, line numbers in errors, a VS Code syntax highlighting extension (!) and much more.
+
+{{< /monkey-implementation >}}
+
 </ul>
 
 
