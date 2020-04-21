@@ -372,9 +372,11 @@ Implementation of Monkey based on the original implementation in Writing An Inte
 
 
 {{< monkey-implementation "CDThomas" "ts-monkey" "TypeScript">}}
-
 A TypeScript implementation of Monkey along with an <a href="https://ts-monkey.now.sh/">in-browser editor, interpreter, and AST explorer</a>!
+{{< /monkey-implementation >}}
 
+{{< monkey-implementation "yhirose" "monkey-cpp" "C++">}}
+A Monkey implementation in C++, using the cpp-peglib PEG library for the lexer and parser.
 {{< /monkey-implementation >}}
 
 </ul>
