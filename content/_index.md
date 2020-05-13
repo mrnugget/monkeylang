@@ -379,6 +379,15 @@ A TypeScript implementation of Monkey along with an <a href="https://ts-monkey.n
 A Monkey implementation in C++, using the cpp-peglib PEG library for the lexer and parser.
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "ludwigLanguage" "ludwig" "Go">}}
+Ludwig is a Monkey dialect, an offspring, that has some really interesting differences to Monkey:
+
+* No statements. Everything is an expression.
+* Structs.
+* Type identifiers, a first step towards enforcing a type system..
+* For/while loops.
+{{< /monkey-implementation >}}
+
 </ul>
 
 
