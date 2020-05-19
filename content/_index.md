@@ -238,7 +238,7 @@ A Monkey implementation in C++ with its own *mark-and-sweep garbage collector*
 <li class="mb-4 p-3 border border-light-grey rounded monkey-implementation">
   <div class="d-flex">
     <div>
-    Frank Hoogerbeets' SharpBASIC (<a href="https://ditrianum.org/sb/sb.zip">.zip</a> / <a href="https://ditrianum.org/sb/sb.tar.gz">.tar.gz</a>)
+    Frank Hoogerbeets' SharpBASIC (<a href="https://sharpbasic.com/go/sb.zip">.zip</a> / <a href="https://sharpbasic.com/go/sb.tar.gz">.tar.gz</a>)
     </div>
     <div class="ml-auto">
       <span class="font-weight-light">Go</span>
