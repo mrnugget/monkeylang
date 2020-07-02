@@ -388,6 +388,10 @@ Ludwig is a Monkey dialect, an offspring, that has some really interesting diffe
 * For/while loops.
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "NightShade256" "prymate" "Python">}}
+Monkey implemented in Python, with additional built-in functions, string comparisons, and modulo operator.
+{{< /monkey-implementation >}}
+
 </ul>
 
 
