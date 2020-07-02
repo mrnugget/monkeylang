@@ -392,6 +392,10 @@ Ludwig is a Monkey dialect, an offspring, that has some really interesting diffe
 Monkey implemented in Python, with additional built-in functions, string comparisons, and modulo operator.
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "KennedyTedesco" "monkey" "PHP">}}
+An implementation of the Monkey interpeter in PHP, with a damn cool logo.
+{{< /monkey-implementation >}}
+
 </ul>
 
 
