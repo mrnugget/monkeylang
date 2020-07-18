@@ -396,6 +396,10 @@ Monkey implemented in Python, with additional built-in functions, string compari
 An implementation of the Monkey interpeter in PHP, with a damn cool logo.
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "chrispine" "crisp" "Go">}}
+A really interesting twist on Monkey, barely recognizable as such: strongly, statically typed; lazy evaluation; pattern-matching, records; and more.
+{{< /monkey-implementation >}}
+
 </ul>
 
 
