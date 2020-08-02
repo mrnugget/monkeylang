@@ -400,6 +400,8 @@ An implementation of the Monkey interpeter in PHP, with a damn cool logo.
 A really interesting twist on Monkey, barely recognizable as such: strongly, statically typed; lazy evaluation; pattern-matching, records; and more.
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "ghost-language" "ghost" "Go">}}
+Ghost is a small, object-oriented, embeddable scripting language built from the foundations of the Monkey interpreter.
+{{< /monkey-implementation >}}
+
 </ul>
-
-
