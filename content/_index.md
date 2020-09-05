@@ -405,7 +405,7 @@ Ghost is a small, object-oriented, embeddable scripting language built from the 
 {{< /monkey-implementation >}}
 
 {{< monkey-implementation "xavdid" "monkey-ts" "Typescript">}}
-A monkey implementation written in Typescript by <a href="https://xavd.id">David Brownman</a>. It's got extensive tests and is true-to-spec for now.
+A Monkey implementation written in Typescript by <a href="https://xavd.id">David Brownman</a>. It's got extensive tests and is true-to-spec for now.
 {{< /monkey-implementation >}}
 
 </ul>
