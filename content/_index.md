@@ -384,7 +384,7 @@ Ludwig is a Monkey dialect, an offspring, that has some really interesting diffe
 
 * No statements. Everything is an expression.
 * Structs.
-* Type identifiers, a first step towards enforcing a type system..
+* Type identifiers, a first step towards enforcing a type system.
 * For/while loops.
 {{< /monkey-implementation >}}
 
@@ -402,6 +402,10 @@ A really interesting twist on Monkey, barely recognizable as such: strongly, sta
 
 {{< monkey-implementation "ghost-language" "ghost" "Go">}}
 Ghost is a small, object-oriented, embeddable scripting language built from the foundations of the Monkey interpreter.
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "xavdid" "monkey-ts" "Typescript">}}
+A Monkey implementation written in Typescript by <a href="https://xavd.id">David Brownman</a>. It's got extensive tests and is true-to-spec for now.
 {{< /monkey-implementation >}}
 
 </ul>
