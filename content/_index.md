@@ -408,4 +408,25 @@ Ghost is a small, object-oriented, embeddable scripting language built from the 
 A Monkey implementation written in Typescript by <a href="https://xavd.id">David Brownman</a>. It's got extensive tests and is true-to-spec for now.
 {{< /monkey-implementation >}}
 
+<li class="mb-4 p-3 border border-light-grey rounded monkey-implementation">
+  <div class="d-flex">
+    <div>
+    Noprianto's <a href="https://github.com/nopri/nopri.github.io/blob/master/monkey.singkong">monkey.singkong</a>/<a href="https://nopri.github.io/monkeyinterpreter.jar">monkeyinterpreter.jar</a>
+    </div>
+    <div class="ml-auto">
+      <span class="font-weight-light">Singkong</span>
+    </div>
+  </div>
+  <hr class="mt-3 mb-3">
+  <div class="description">
+  <p>
+    Simple implementation of The Monkey Programming Language interpreter in Singkong Programming Language.
+    <a href="https://nopri.github.io/singkong.html">Singkong</a> is based on 
+    <a href="https://github.com/nopri/nopri.github.io/blob/master/Monkey.java">Monkey.java</a>,
+    which based on <a href="https://github.com/nopri/nopri.github.io/blob/master/monkey.py">monkey.py</a>.
+    Monkey.singkong is also based on monkey.py.
+  </p>
+  </div>
+</li>
+
 </ul>
