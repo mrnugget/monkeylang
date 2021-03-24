@@ -429,4 +429,8 @@ A Monkey implementation written in Typescript by <a href="https://xavd.id">David
   </div>
 </li>
 
+{{< monkey-implementation "jaredh159" "monkey-swift" "Swift">}}
+A Monkey implementation written in Swift.
+{{< /monkey-implementation >}}
+
 </ul>
