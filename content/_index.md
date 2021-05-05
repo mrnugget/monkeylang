@@ -412,7 +412,6 @@ A Monkey implementation written in Typescript by <a href="https://xavd.id">David
 A complete Monkey implementation, including macros, written in Kotlin
 {{< /monkey-implementation >}}
 
-
 <li class="mb-4 p-3 border border-light-grey rounded monkey-implementation">
   <div class="d-flex">
     <div>
