@@ -433,4 +433,8 @@ A complete Monkey implementation, including macros, written in Kotlin
   </div>
 </li>
 
+{{< monkey-implementation "jaredh159" "monkey-swift" "Swift">}}
+A Monkey implementation written in Swift.
+{{< /monkey-implementation >}}
+
 </ul>
