@@ -409,9 +409,14 @@ A Monkey implementation written in Typescript by <a href="https://xavd.id">David
 {{< /monkey-implementation >}}
 
 {{< monkey-implementation "MarioAriasC" "monkey.kt" "Kotlin">}}
-A complete Monkey implementation, including macros, written in Kotlin
+A complete Monkey implementation, including compiler, written in Kotlin
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "MarioAriasC" "monyet" "Crystal">}}
+A complete Monkey implementation, including compiler, written in Kotlin
+{{< /monkey-implementation >}}
+  
+  
 {{< monkey-implementation "ryo-imai-bit" "Writing-An-Interpreter-In-Go-In-OCaml" "OCaml">}}
 An implementation of Monkey interpreter in OCaml, including macros.
 {{< /monkey-implementation >}}
