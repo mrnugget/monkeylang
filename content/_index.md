@@ -413,7 +413,7 @@ A complete Monkey implementation, including compiler, written in Kotlin
 {{< /monkey-implementation >}}
 
 {{< monkey-implementation "MarioAriasC" "monyet" "Crystal">}}
-A complete Monkey implementation, including compiler, written in Kotlin
+A complete Monkey implementation, including compiler, written in Crystal
 {{< /monkey-implementation >}}
   
   
