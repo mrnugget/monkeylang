@@ -416,9 +416,19 @@ A complete Monkey implementation, including compiler, written in Kotlin
 A complete Monkey implementation, including compiler, written in Crystal
 {{< /monkey-implementation >}}
   
-  
 {{< monkey-implementation "ryo-imai-bit" "Writing-An-Interpreter-In-Go-In-OCaml" "OCaml">}}
 An implementation of Monkey interpreter in OCaml, including macros.
+{{< /monkey-implementation >}}
+  
+{{< monkey-implementation "lucifer1004" "MonkeyLang.jl" "Julia">}}
+A complete Monkey implementation (interpreter + compiler) in Julia, plus:
+  
+* Macros
+* Mutable variables
+* While loops (with local scopes) and break/continue statements
+* A standalone syntax analyzer extracted from the original compiler
+* A Julia transpiler which tranpiles Monkey to Julia, and behaves almost the same as a real Monkey
+* Unified tests for all three backends (interpreter, compiler and Julia transpiler)
 {{< /monkey-implementation >}}
 
 <li class="mb-4 p-3 border border-light-grey rounded monkey-implementation">
