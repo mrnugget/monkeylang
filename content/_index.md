@@ -452,4 +452,8 @@ A complete Monkey implementation (interpreter + compiler) in Julia, plus:
   </div>
 </li>
 
+{{< monkey-implementation "ledbutter" "FsharpMonkeyInterpreter" "F#" >}}
+A Monkey implementation in F# that is mostly functional.
+{{< /monkey-implementation >}}
+
 </ul>
