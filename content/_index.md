@@ -457,7 +457,7 @@ A Monkey implementation in F# that is mostly functional.
 {{< /monkey-implementation >}}
   
 {{< monkey-implementation "Flipez" "rocket-lang" "Go">}}
-Object object-oriented variant inspired by Ruby. It offers "everything is an object", networking, JSON and more!
+Object-oriented variant inspired by Ruby. It offers "everything is an object", networking, JSON and more!
 {{< /monkey-implementation >}}
 
 </ul>
