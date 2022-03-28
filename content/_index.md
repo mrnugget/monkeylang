@@ -455,5 +455,9 @@ A complete Monkey implementation (interpreter + compiler) in Julia, plus:
 {{< monkey-implementation "ledbutter" "FsharpMonkeyInterpreter" "F#" >}}
 A Monkey implementation in F# that is mostly functional.
 {{< /monkey-implementation >}}
+  
+{{< monkey-implementation "Flipez" "rocket-lang" "Go">}}
+Object-oriented variant inspired by Ruby. It offers "everything is an object", networking, JSON and more!
+{{< /monkey-implementation >}}
 
 </ul>
