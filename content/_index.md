@@ -416,6 +416,22 @@ A complete Monkey implementation, including compiler, written in Kotlin
 A complete Monkey implementation, including compiler, written in Crystal
 {{< /monkey-implementation >}}
   
+{{< monkey-implementation "MarioAriasC" "langur" "Scala">}}
+A complete Monkey implementation, including compiler, written in Scala 3
+{{< /monkey-implementation >}}
+  
+{{< monkey-implementation "MarioAriasC" "pepa" "Ruby">}}
+A complete Monkey interpreter implementation written in Ruby 3
+{{< /monkey-implementation >}}
+  
+{{< monkey-implementation "MarioAriasC" "bruno" "Python">}}
+A complete Monkey interpreter implementation written in Python
+{{< /monkey-implementation >}}
+  
+{{< monkey-implementation "MarioAriasC" "julieta" "Lua">}}
+A complete Monkey interpreter implementation written in Lua
+{{< /monkey-implementation >}}
+  
 {{< monkey-implementation "ryo-imai-bit" "Writing-An-Interpreter-In-Go-In-OCaml" "OCaml">}}
 An implementation of Monkey interpreter in OCaml, including macros.
 {{< /monkey-implementation >}}
