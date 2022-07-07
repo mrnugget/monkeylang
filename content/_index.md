@@ -475,5 +475,9 @@ A Monkey implementation in F# that is mostly functional.
 {{< monkey-implementation "Flipez" "rocket-lang" "Go">}}
 Object-oriented variant inspired by Ruby. It offers "everything is an object", networking, JSON and more!
 {{< /monkey-implementation >}}
+  
+{{< monkey-implementation "jongwonwoo" "SwiftyMonkey" "Swift">}}
+An implementation of Monkey in Swift
+{{< /monkey-implementation >}}
 
 </ul>
