@@ -480,4 +480,19 @@ Object-oriented variant inspired by Ruby. It offers "everything is an object", n
 An implementation of Monkey in Swift
 {{< /monkey-implementation >}}
 
+
+{{< monkey-implementation "Narasimha1997" "boson-lang" "Rust">}}
+An interpreted, dynamically-typed, multi-threaded, general purpose hobby programming language written in Rust. Features:
+* Multiple Data Types: char, int, float, string, array, hash-table, bytes and buffer
+* Arithmetic, Logical operations
+* Variables and Constants
+* Control and Looping structures
+* Functions and Lambda expressions
+* Threads and Multi-threading
+* Shell operator to run shell commands within the language statements
+* Some basic built-in functions
+* Iterators (pseudo iterators)
+* Byte code generation, serialization and loading
+{{< /monkey-implementation >}}
+
 </ul>
