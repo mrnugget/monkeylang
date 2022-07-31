@@ -167,6 +167,26 @@ Mico ("Monkey" in catalan). Monkey language implementation done with C++. Includ
 A step-by-step walk-through where each commit is a fully working part.
 {{< /monkey-implementation >}}
 
+<li class="mb-4 p-3 border border-light-grey rounded monkey-implementation">
+  <div class="d-flex">
+    <div>
+    prologic's <a href="https://git.mills.io/prologic/monkey-lang">monkey-lang</a>
+    </div>
+    <div class="ml-auto">
+      <span class="font-weight-light">Go</span>
+    </div>
+  </div>
+  <hr class="mt-3 mb-3">
+  <div class="description">
+  <p>
+    A Monkey implementation in Go that deviates from the book implementations by
+    adding more built-in functions, objects, modules, more operators,
+    assignments -- with the goal of building a self-hosting Monkey
+    implementation.
+  </p>
+  </div>
+</li>
+
 {{< monkey-implementation "michalholasek" "monkey-lang" "Typescript">}}
 A complete Monkey implementation in Typescript
 {{< /monkey-implementation >}}
