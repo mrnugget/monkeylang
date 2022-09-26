@@ -515,7 +515,6 @@ An interpreted, dynamically-typed, multi-threaded, general purpose hobby program
 * Byte code generation, serialization and loading
 {{< /monkey-implementation >}}
 
-
 {{< monkey-implementation "oldjun" "pi" "Go">}}
 Pi is an object-oriented, dynamically-typed programming language built from the foundations of the Monkey interpreter.
 {{< /monkey-implementation >}}
