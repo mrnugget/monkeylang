@@ -1,7 +1,11 @@
 <li class="mb-4 p-3 border border-light-grey rounded monkey-implementation">
   <div class="d-flex">
     <div>
+    {{ if index .Params 3 }}
+    <a href="https://{{ index .Params 3 }}/{{ index .Params 0 }}">{{ index .Params 0 }}</a> / <b><a href="https://{{ index .Params 3 }}/{{ index .Params 0 }}/{{ index .Params 1 }}">{{ index .Params 1 }}</a></b>
+    {{ else }}
     <a href="https://github.com/{{ index .Params 0 }}">{{ index .Params 0 }}</a> / <b><a href="https://github.com/{{ index .Params 0 }}/{{ index .Params 1 }}">{{ index .Params 1 }}</a></b>
+    {{ end }}
     </div>
 
     {{ if index .Params 2 }}
