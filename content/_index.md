@@ -519,4 +519,8 @@ An interpreted, dynamically-typed, multi-threaded, general purpose hobby program
 Pi is an object-oriented, dynamically-typed programming language built from the foundations of the Monkey interpreter.
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "findley" "monkey-lang" "Rust" "gitlab.com">}}
+A mostly vanilla implementation of Monkey in Rust with a [WASM powered web playground](https://monkey.findley.dev)
+{{< /monkey-implementation >}}
+
 </ul>
