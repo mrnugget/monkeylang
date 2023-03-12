@@ -254,6 +254,9 @@ Special features:
 {{< monkey-implementation "zhuzilin" "monkey" "C++" >}}
 A Monkey implementation in C++ with its own *mark-and-sweep garbage collector*
 {{< /monkey-implementation >}}
+{{< monkey-implementation "shejialuo" "cppmpiler" "C++" >}}
+A Monkey implementation in C++ consistent with the book.
+{{< /monkey-implementation >}}
 
 <li class="mb-4 p-3 border border-light-grey rounded monkey-implementation">
   <div class="d-flex">
