@@ -526,4 +526,8 @@ Pi is an object-oriented, dynamically-typed programming language built from the 
 A mostly vanilla implementation of Monkey in Rust with a [WASM powered web playground](https://monkey.findley.dev)
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "KtlTheBest" "ocaml_and_monkey" "OCaml">}}
+An implementation of Monkey in OCaml, but doesn't require semicolons. That's about it.
+{{< /monkey-implementation >}}
+
 </ul>
