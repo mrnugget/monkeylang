@@ -530,4 +530,18 @@ A mostly vanilla implementation of Monkey in Rust with a [WASM powered web playg
 An implementation of Monkey in OCaml, but doesn't require semicolons. That's about it.
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "nishant-sachdeva" "monkeyLang" "Rust">}}
+An implementation of the Monkey Interpreter in Rust.
+Contains the following features
+* C-like syntax
+* variable bindings
+* Integers and booleans
+* arithmetic expressions
+* built-in functions extended to Arrays and Strings.
+* first-class and higher-order functions
+* closures
+* a string data structure
+* an array data structure
+* a hash data structure
+{{< /monkey-implementation >}}
 </ul>
