@@ -545,3 +545,11 @@ Contains the following features
 * a hash data structure
 {{< /monkey-implementation >}}
 </ul>
+
+{{< monkey-implementation "LeonSteinbach" "MonkeyLang-CSharp" "C#">}}
+An implementation of an interpreter for Monkey in C#
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "LeonSteinbach" "MonkeyLang-Scala" "Scala">}}
+An implementation of an interpreter and compiler for Monkey in Scala
+{{< /monkey-implementation >}}
