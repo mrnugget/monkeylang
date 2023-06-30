@@ -491,6 +491,10 @@ A complete Monkey implementation (interpreter + compiler) in Julia, plus:
   </div>
 </li>
 
+{{< monkey-implementation "jaredh159" "monkey-swift" "Swift">}}
+A Monkey implementation written in Swift.
+{{< /monkey-implementation >}}
+
 {{< monkey-implementation "ledbutter" "FsharpMonkeyInterpreter" "F#" >}}
 A Monkey implementation in F# that is mostly functional.
 {{< /monkey-implementation >}}
@@ -556,4 +560,5 @@ An implementation of an interpreter and compiler for Monkey in Scala
 {{< monkey-implementation "thoqbk" "tholangforfun" "Java">}}
 An implementation of an interpreter for Monkey in Java
 {{< /monkey-implementation >}}
+
 </ul>
