@@ -553,3 +553,7 @@ An implementation of an interpreter for Monkey in C#
 An implementation of an interpreter and compiler for Monkey in Scala
 {{< /monkey-implementation >}}
 </ul>
+
+{{< monkey-implementation "thoqbk" "tholangforfun" "Java">}}
+An implementation of an interpreter for Monkey in Java
+{{< /monkey-implementation >}}
