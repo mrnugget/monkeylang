@@ -167,6 +167,26 @@ Mico ("Monkey" in catalan). Monkey language implementation done with C++. Includ
 A step-by-step walk-through where each commit is a fully working part.
 {{< /monkey-implementation >}}
 
+<li class="mb-4 p-3 border border-light-grey rounded monkey-implementation">
+  <div class="d-flex">
+    <div>
+    prologic's <a href="https://git.mills.io/prologic/monkey-lang">monkey-lang</a>
+    </div>
+    <div class="ml-auto">
+      <span class="font-weight-light">Go</span>
+    </div>
+  </div>
+  <hr class="mt-3 mb-3">
+  <div class="description">
+  <p>
+    A Monkey implementation in Go that deviates from the book implementations by
+    adding more built-in functions, objects, modules, more operators,
+    assignments -- with the goal of building a self-hosting Monkey
+    implementation.
+  </p>
+  </div>
+</li>
+
 {{< monkey-implementation "michalholasek" "monkey-lang" "Typescript">}}
 A complete Monkey implementation in Typescript
 {{< /monkey-implementation >}}
@@ -233,6 +253,9 @@ Special features:
 {{< monkey-implementation "rainliu" "monkey" "Rust" />}}
 {{< monkey-implementation "zhuzilin" "monkey" "C++" >}}
 A Monkey implementation in C++ with its own *mark-and-sweep garbage collector*
+{{< /monkey-implementation >}}
+{{< monkey-implementation "shejialuo" "cppmpiler" "C++" >}}
+A Monkey implementation in C++ consistent with the book.
 {{< /monkey-implementation >}}
 
 <li class="mb-4 p-3 border border-light-grey rounded monkey-implementation">
@@ -408,6 +431,45 @@ Ghost is a small, object-oriented, embeddable scripting language built from the 
 A Monkey implementation written in Typescript by <a href="https://xavd.id">David Brownman</a>. It's got extensive tests and is true-to-spec for now.
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "MarioAriasC" "monkey.kt" "Kotlin">}}
+A complete Monkey implementation, including compiler, written in Kotlin
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "MarioAriasC" "monyet" "Crystal">}}
+A complete Monkey implementation, including compiler, written in Crystal
+{{< /monkey-implementation >}}
+  
+{{< monkey-implementation "MarioAriasC" "langur" "Scala">}}
+A complete Monkey implementation, including compiler, written in Scala 3
+{{< /monkey-implementation >}}
+  
+{{< monkey-implementation "MarioAriasC" "pepa" "Ruby">}}
+A complete Monkey interpreter implementation written in Ruby 3
+{{< /monkey-implementation >}}
+  
+{{< monkey-implementation "MarioAriasC" "bruno" "Python">}}
+A complete Monkey interpreter implementation written in Python
+{{< /monkey-implementation >}}
+  
+{{< monkey-implementation "MarioAriasC" "julieta" "Lua">}}
+A complete Monkey interpreter implementation written in Lua
+{{< /monkey-implementation >}}
+  
+{{< monkey-implementation "ryo-imai-bit" "Writing-An-Interpreter-In-Go-In-OCaml" "OCaml">}}
+An implementation of Monkey interpreter in OCaml, including macros.
+{{< /monkey-implementation >}}
+  
+{{< monkey-implementation "lucifer1004" "MonkeyLang.jl" "Julia">}}
+A complete Monkey implementation (interpreter + compiler) in Julia, plus:
+  
+* Macros
+* Mutable variables
+* While loops (with local scopes) and break/continue statements
+* A standalone syntax analyzer extracted from the original compiler
+* A Julia transpiler which tranpiles Monkey to Julia, and behaves almost the same as a real Monkey
+* Unified tests for all three backends (interpreter, compiler and Julia transpiler)
+{{< /monkey-implementation >}}
+
 <li class="mb-4 p-3 border border-light-grey rounded monkey-implementation">
   <div class="d-flex">
     <div>
@@ -431,6 +493,72 @@ A Monkey implementation written in Typescript by <a href="https://xavd.id">David
 
 {{< monkey-implementation "jaredh159" "monkey-swift" "Swift">}}
 A Monkey implementation written in Swift.
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "ledbutter" "FsharpMonkeyInterpreter" "F#" >}}
+A Monkey implementation in F# that is mostly functional.
+{{< /monkey-implementation >}}
+  
+{{< monkey-implementation "Flipez" "rocket-lang" "Go">}}
+Object-oriented variant inspired by Ruby. It offers "everything is an object", networking, JSON and more!
+{{< /monkey-implementation >}}
+  
+{{< monkey-implementation "jongwonwoo" "SwiftyMonkey" "Swift">}}
+An implementation of Monkey in Swift
+{{< /monkey-implementation >}}
+
+
+{{< monkey-implementation "Narasimha1997" "boson-lang" "Rust">}}
+An interpreted, dynamically-typed, multi-threaded, general purpose hobby programming language written in Rust. Features:
+* Multiple Data Types: char, int, float, string, array, hash-table, bytes and buffer
+* Arithmetic, Logical operations
+* Variables and Constants
+* Control and Looping structures
+* Functions and Lambda expressions
+* Threads and Multi-threading
+* Shell operator to run shell commands within the language statements
+* Some basic built-in functions
+* Iterators (pseudo iterators)
+* Byte code generation, serialization and loading
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "oldjun" "pi" "Go">}}
+Pi is an object-oriented, dynamically-typed programming language built from the foundations of the Monkey interpreter.
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "findley" "monkey-lang" "Rust" "gitlab.com">}}
+A mostly vanilla implementation of Monkey in Rust with a [WASM powered web playground](https://monkey.findley.dev)
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "KtlTheBest" "ocaml_and_monkey" "OCaml">}}
+An implementation of Monkey in OCaml, but doesn't require semicolons. That's about it.
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "nishant-sachdeva" "monkeyLang" "Rust">}}
+An implementation of the Monkey Interpreter in Rust.
+Contains the following features
+* C-like syntax
+* variable bindings
+* Integers and booleans
+* arithmetic expressions
+* built-in functions extended to Arrays and Strings.
+* first-class and higher-order functions
+* closures
+* a string data structure
+* an array data structure
+* a hash data structure
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "LeonSteinbach" "MonkeyLang-CSharp" "C#">}}
+An implementation of an interpreter for Monkey in C#
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "LeonSteinbach" "MonkeyLang-Scala" "Scala">}}
+An implementation of an interpreter and compiler for Monkey in Scala
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "thoqbk" "tholangforfun" "Java">}}
+An implementation of an interpreter for Monkey in Java
 {{< /monkey-implementation >}}
 
 </ul>
