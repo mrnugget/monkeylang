@@ -561,4 +561,8 @@ An implementation of an interpreter and compiler for Monkey in Scala
 An implementation of an interpreter for Monkey in Java
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "dwayne" "elm-monkey-interpreter" "Elm">}}
+A Monkey interpreter written in Elm with an online [playgound](https://elm-monkey-interpreter.netlify.app/).
+{{< /monkey-implementation >}}
+
 </ul>
