@@ -565,4 +565,8 @@ An implementation of an interpreter for Monkey in Java
 A Monkey interpreter written in Elm with an online [playgound](https://elm-monkey-interpreter.netlify.app/).
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "Yag000" "chimpanzee" "Rust">}}
+Monkey interpreter, compiler and formatter, in Rust, with added features.
+{{< /monkey-implementation >}}
+
 </ul>
