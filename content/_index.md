@@ -569,4 +569,8 @@ A Monkey interpreter written in Elm with an online [playgound](https://elm-monke
 Monkey interpreter, compiler and formatter, in Rust, with added features.
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "wzid" "monkey-rs" "Rust">}}
+Monkey Lang interpreter implemented in Rust 
+{{< /monkey-implementation >}}
+
 </ul>
