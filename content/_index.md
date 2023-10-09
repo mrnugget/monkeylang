@@ -573,4 +573,9 @@ Monkey interpreter, compiler and formatter, in Rust, with added features.
 Monkey Lang interpreter implemented in Rust 
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "binoyjayan" "monkey-rs" "Rust">}}
+Rust port of the monkey interpreter and the bytecode compiler.
+It has a few more built-in functions, the unit tests and a way to trace bytecode execution.
+{{< /monkey-implementation >}}
+
 </ul>
