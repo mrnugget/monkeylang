@@ -146,6 +146,20 @@ Did you also built your own version of Monkey? Let me know, just send me an emai
 
 <ul class="list-unstyled pl-2 mt-5 mb-3">
 
+{{< monkey-implementation "NicoNex" "tau" "Go and C">}}
+A functional interpreted programming language with a minimalistic design.  
+Tau differs from Monkey under many aspects but it was made possible thanks to Monkey.  
+Additional features from Monkey:  
+- All missing operators
+- Loops
+- Nice error messages
+- Concurrency
+- Pipes (like Go channels)
+- Objects
+- C/Tau interoperability
+- Module/import system
+{{< /monkey-implementation >}}  
+
 {{< monkey-implementation "fabrik42" "writing_an_interpreter_in_elixir" "Elixir">}}
 An implementation of Monkey in Elixir
 {{< /monkey-implementation >}}
