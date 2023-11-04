@@ -590,6 +590,10 @@ Additional features from Monkey:
 - Objects
 - C/Tau interoperability
 - Module/import system
-{{< /monkey-implementation >}}  
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "mhanberg" "monkey" "Elixir">}}
+Another implementation of Monkey in Elixir
+{{< /monkey-implementation >}}
 
 </ul>
