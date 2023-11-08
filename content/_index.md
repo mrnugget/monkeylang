@@ -438,30 +438,30 @@ A complete Monkey implementation, including compiler, written in Kotlin
 {{< monkey-implementation "MarioAriasC" "monyet" "Crystal">}}
 A complete Monkey implementation, including compiler, written in Crystal
 {{< /monkey-implementation >}}
-  
+
 {{< monkey-implementation "MarioAriasC" "langur" "Scala">}}
 A complete Monkey implementation, including compiler, written in Scala 3
 {{< /monkey-implementation >}}
-  
+
 {{< monkey-implementation "MarioAriasC" "pepa" "Ruby">}}
 A complete Monkey interpreter implementation written in Ruby 3
 {{< /monkey-implementation >}}
-  
+
 {{< monkey-implementation "MarioAriasC" "bruno" "Python">}}
 A complete Monkey interpreter implementation written in Python
 {{< /monkey-implementation >}}
-  
+
 {{< monkey-implementation "MarioAriasC" "julieta" "Lua">}}
 A complete Monkey interpreter implementation written in Lua
 {{< /monkey-implementation >}}
-  
+
 {{< monkey-implementation "ryo-imai-bit" "Writing-An-Interpreter-In-Go-In-OCaml" "OCaml">}}
 An implementation of Monkey interpreter in OCaml, including macros.
 {{< /monkey-implementation >}}
-  
+
 {{< monkey-implementation "lucifer1004" "MonkeyLang.jl" "Julia">}}
 A complete Monkey implementation (interpreter + compiler) in Julia, plus:
-  
+
 * Macros
 * Mutable variables
 * While loops (with local scopes) and break/continue statements
@@ -483,7 +483,7 @@ A complete Monkey implementation (interpreter + compiler) in Julia, plus:
   <div class="description">
   <p>
     Simple implementation of The Monkey Programming Language interpreter in Singkong Programming Language.
-    <a href="https://nopri.github.io/singkong.html">Singkong</a> is based on 
+    <a href="https://nopri.github.io/singkong.html">Singkong</a> is based on
     <a href="https://github.com/nopri/nopri.github.io/blob/master/Monkey.java">Monkey.java</a>,
     which based on <a href="https://github.com/nopri/nopri.github.io/blob/master/monkey.py">monkey.py</a>.
     Monkey.singkong is also based on monkey.py.
@@ -498,11 +498,11 @@ A Monkey implementation written in Swift.
 {{< monkey-implementation "ledbutter" "FsharpMonkeyInterpreter" "F#" >}}
 A Monkey implementation in F# that is mostly functional.
 {{< /monkey-implementation >}}
-  
+
 {{< monkey-implementation "Flipez" "rocket-lang" "Go">}}
 Object-oriented variant inspired by Ruby. It offers "everything is an object", networking, JSON and more!
 {{< /monkey-implementation >}}
-  
+
 {{< monkey-implementation "jongwonwoo" "SwiftyMonkey" "Swift">}}
 An implementation of Monkey in Swift
 {{< /monkey-implementation >}}
@@ -570,7 +570,7 @@ Monkey interpreter, compiler and formatter, in Rust, with added features.
 {{< /monkey-implementation >}}
 
 {{< monkey-implementation "wzid" "monkey-rs" "Rust">}}
-Monkey Lang interpreter implemented in Rust 
+Monkey Lang interpreter implemented in Rust
 {{< /monkey-implementation >}}
 
 {{< monkey-implementation "binoyjayan" "monkey-rs" "Rust">}}
@@ -579,9 +579,9 @@ It has a few more built-in functions, the unit tests and a way to trace bytecode
 {{< /monkey-implementation >}}
 
 {{< monkey-implementation "NicoNex" "tau" "Go and C">}}
-A functional interpreted programming language with a minimalistic design.  
-Tau differs from Monkey under many aspects but it was made possible thanks to Monkey.  
-Additional features from Monkey:  
+A functional interpreted programming language with a minimalistic design.
+Tau differs from Monkey under many aspects but it was made possible thanks to Monkey.
+Additional features from Monkey:
 - All missing operators
 - Loops
 - Nice error messages
@@ -594,6 +594,10 @@ Additional features from Monkey:
 
 {{< monkey-implementation "mhanberg" "monkey" "Elixir">}}
 Another implementation of Monkey in Elixir
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "umairsd" "swift-monkey-interpreter" "Swift">}}
+A straightforward port of the Monkey Language interpreter in Swift. This has been tested and verified in Swift version 5.9.
 {{< /monkey-implementation >}}
 
 </ul>
