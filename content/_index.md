@@ -142,7 +142,7 @@ up with and showcase it to the rest of the world.
 Collected here are some of those interesting and cool Monkey implementations
 readers have shared with me.
 
-Did you also built your own version of Monkey? Let me know, just send me an email to: **me&nbsp;@&nbsp;thorstenball.com**
+Did you also built your own version of Monkey? Add it to this list by [opening a pull request here](https://github.com/mrnugget/monkeylang/?tab=readme-ov-file#adding-a-new-implementation)!
 
 <ul class="list-unstyled pl-2 mt-5 mb-3">
 
