@@ -601,7 +601,7 @@ A straightforward port of the Monkey Language interpreter in Swift. This has bee
 {{< /monkey-implementation >}}
 
 {{< monkey-implementation "madsravn" "java-interpreter" "Java">}}
-An implementation of Monkey Lang made in Java. Code features most of the test suite from the book as well.
+An implementation of the Monkey Language made in Java. Code features most of the test suite from the book as well.
 {{< /monkey-implementation >}}
 
 </ul>
