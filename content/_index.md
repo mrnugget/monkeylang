@@ -600,4 +600,8 @@ Another implementation of Monkey in Elixir
 A straightforward port of the Monkey Language interpreter in Swift. This has been tested and verified in Swift version 5.9.
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "madsravn" "java-interpreter" "Java">}}
+An implementation of the Monkey Language made in Java. Code features most of the test suite from the book as well.
+{{< /monkey-implementation >}}
+
 </ul>
