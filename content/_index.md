@@ -604,4 +604,8 @@ A straightforward port of the Monkey Language interpreter in Swift. This has bee
 An implementation of the Monkey Language made in Java. Code features most of the test suite from the book as well.
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "joshuanunn" "monkey-plusplus" "C++">}}
+A cheeky simian-inspired interpreter and compiler duo for the Monkey programming language, written in C++. The language features are consistent with those in the original book implementations, and include full test suites and benchmarks.
+{{< /monkey-implementation >}}
+
 </ul>
