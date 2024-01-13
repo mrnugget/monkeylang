@@ -608,4 +608,7 @@ An implementation of the Monkey Language made in Java. Code features most of the
 A cheeky simian-inspired interpreter and compiler duo for the Monkey programming language, written in C++. The language features are consistent with those in the original book implementations, and include full test suites and benchmarks.
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "bpetermann" "node-interpreter" "TypeScript">}}
+An implementation of the Monkey Language in TypeScript.
+{{< /monkey-implementation >}}
 </ul>
