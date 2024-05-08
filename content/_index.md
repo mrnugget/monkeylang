@@ -611,4 +611,12 @@ A cheeky simian-inspired interpreter and compiler duo for the Monkey programming
 {{< monkey-implementation "bpetermann" "node-interpreter" "TypeScript">}}
 An implementation of the Monkey Language in TypeScript.
 {{< /monkey-implementation >}}
+
+{{< monkey-implementation "moritz-tiesler" "monkey" "Go">}}
+An implementation of the Monkey Language in Go.
+Additional Features:
+- Syntax sugar for Uniform Function Call Syntax and Trailing Lambda Syntax
+- VS Code Language Server Extension
+- VS Code Debugger Extension
+{{< /monkey-implementation >}}
 </ul>
