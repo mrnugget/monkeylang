@@ -338,7 +338,7 @@ An implementation of Monkey in V
 
 <li class="mb-4 p-3 border border-light-grey rounded monkey-implementation">
   <div class="d-flex">
-    <div> Anthony Davis' <a href="https://en.langurlang.org/">langur</a> </div>
+    <div> Anthony Davis' <a href="https://langurlang.org/">langur</a> </div>
     <div class="ml-auto">
       <span class="font-weight-light">Go</span>
     </div>
@@ -346,24 +346,23 @@ An implementation of Monkey in V
   <hr class="mt-3 mb-3">
   <div class="description">
   <p>
-  langur is based on Monkey but it underwent a lot of changes and now has a ton
-  of features you won't find in Monkey:
+  Langur is based on Monkey, but underwent many changes and has features you won't find in Monkey. Some of it's features include:
   </p>
   <p>
     <ul>
-      <li><code>given</code> expressions (langur's "switch")</li>
-      <li>semi-integrated regex</li>
-      <li>decimal floating point for numbers</li>
-      <li>number constants: pi, phi, e, n2, n10</li>
-      <li>automated for-loop over an array or string, or over a range</li>
-      <li>immutable or mutable declarations</li>
-      <li>decoupling assignments</li>
-      <li>block quote (similar to a "HEREDOC")</li>
-      <li>indexing strings by code point</li>
-      <li>indexing by arrays</li>
-      <li>exponent and root operators</li>
-      <li>catching exceptions without explicit try blocks</li>
-      <li>built-in functions such as <code>read()</code>, <code>map()</code>, <code>fold()</code>, <code>foldfrom()</code>, <code>where()</code></li>
+	    <li>arbitrary precision decimal floating point for numbers</li>
+	    <li>integer basex notation for any base from 2 to 36, such as <code>2x1010_0010</code> or <code>-11x123A</code></li>
+	    <li>highly expressive <code>switch</code> expressions</li>
+	    <li>semi-integrated regex</li>
+	    <li>ISO 8601 date/time literals</li>
+	    <li>duration literals</li>
+	    <li>automated for loop over a list, hash, or string, or over a range</li>
+	    <li>first-order functions, including closures</li>
+	    <li>immutable or mutable declarations</li>
+	    <li>chained string interpolation modifiers</li>
+	    <li>both truncating and floor division operators; also remainder and modulus, exponent and root</li>
+	    <li>optional database operators (null propagating)</li>
+	    <li>catching exceptions without explicit try blocks</li>
     </ul>
   </p>
   <p>
