@@ -618,4 +618,24 @@ Additional Features:
 - VS Code Language Server Extension
 - VS Code Debugger Extension
 {{< /monkey-implementation >}}
+
+
+{{< monkey-implementation "grol-io" "grol" "Go">}}
+
+Started as Monkey but now is [GROL](https://grol.io/), on github [github.com/grol-io/grol](https://github.com/grol-io/grol) with following notable changes:
+- redesigned the token/lexer/parser with intern'ing
+- no need for custom hash function, go maps of interface can be used for exact equality checks
+- removed `let`
+- removed requirement for `(` `)` in `if`
+- use numerical (uint8) enum (and stringer) instead of strings
+- use said codes for checking type etc everywhere (or even pointer == check thanks for interning)
+- added float, use `+` for concat of arrays and merging of maps, etc...
+- formatting / normalizing the source code (try it at the web site "run" or cli `-format`)
+- and more... (see site)
+
+<br>
+Also features a WASM online version and a Discord bot.
+
+{{< /monkey-implementation >}}
+
 </ul>
