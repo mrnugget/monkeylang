@@ -638,4 +638,8 @@ Also features a WASM online version and a Discord bot.
 
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "JoshuaHenriques" "cixac" "Go">}}
+The Cixac programming language is a passion project that I decided to pursue with inspiration and guidance from Thorsten Ball's book. Creating this interpreter is the first (out of three) implementation of my object-oriented dynamic programming language.
+{{< /monkey-implementation >}}
+
 </ul>
