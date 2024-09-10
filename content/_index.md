@@ -646,4 +646,8 @@ The Cixac programming language is a passion project that I decided to pursue wit
 Rust implementation of the Monkey Programming Language with WASM based Playground.
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "MichaelB-99" "ts-monkey" "TypeScript">}}
+A TypeScript implementation of both a tree walking interpreter and bytecode compiler & vm for Monkey. Extended to support new features including for-in loops, arrow functions, additional builtin functions and more. 
+{{< /monkey-implementation >}} 
+
 </ul>
