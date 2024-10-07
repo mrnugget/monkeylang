@@ -647,7 +647,19 @@ Rust implementation of the Monkey Programming Language with WASM based Playgroun
 {{< /monkey-implementation >}}
 
 {{< monkey-implementation "MichaelB-99" "ts-monkey" "TypeScript">}}
-A TypeScript implementation of both a tree walking interpreter and bytecode compiler & vm for Monkey. Extended to support new features including for-in loops, arrow functions, additional builtin functions and more. 
-{{< /monkey-implementation >}} 
+A TypeScript implementation of both a tree walking interpreter and bytecode compiler & vm for Monkey. Extended to support new features including for-in loops, arrow functions, additional builtin functions and more.
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "Javier-varez" "monkey_interpreter" "Go and C++">}}
+Pretty much the regular monkey language, with a few customizations:
+- Supports range expressions like `0..123`.
+- Supports variable-length arguments to functions with `fn(a, ...) { }` syntax.
+- Supports builtin functions to turn a vararg object into an array, like `fn(a, ...) { a + len(toArray(...)) }`.
+- Support a `contains` builtin that returns a boolean indicating if a `Hash` object contains a key.
+- Closures capture the environment by value, not by reference, making it truly functional.
+- Implements nicer error reporting, giving contextual information of where the error happened.
+- Apart from the interpreter, it implements the bytecode VM and a transpiler to C++, which turns out to be the fastest.
+- Saves the repl history using `liner`.
+{{< /monkey-implementation >}}
 
 </ul>
