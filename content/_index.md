@@ -662,4 +662,8 @@ Pretty much the regular monkey language, with a few customizations:
 - Saves the repl history using `liner`.
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "dottharun" "lilac" "C">}}
+A MonkeyLang Interpreter written in C
+{{< /monkey-implementation >}}
+
 </ul>
