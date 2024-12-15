@@ -666,4 +666,8 @@ Pretty much the regular monkey language, with a few customizations:
 A MonkeyLang Interpreter written in C
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "vincentlabelle" "monkey" "Go">}}
+A slightly refactored implementation of Monkey in Go.
+{{< /monkey-implementation >}}
+
 </ul>
