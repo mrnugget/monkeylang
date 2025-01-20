@@ -666,4 +666,13 @@ Pretty much the regular monkey language, with a few customizations:
 A MonkeyLang Interpreter written in C
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "emilkloeden" "orangutan" "TypeScript">}}
+An implementation of the Monkey Language in TypeScript and hosted on the Deno runtime. Adds a `Number` type, new builtins and the `use` keyword to implement a rudimentary module system.
+{{< /monkey-implementation >}}
+
+
+{{< monkey-implementation "emilkloeden" "orangutan-monkey-interpreter" "Orangutan">}}
+An implementation of the Monkey Language implemented in orangutan - a superset of monkey.
+{{< /monkey-implementation >}}
+
 </ul>
