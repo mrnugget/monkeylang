@@ -675,4 +675,9 @@ An implementation of the Monkey Language in TypeScript and hosted on the Deno ru
 An implementation of the Monkey Language implemented in orangutan - a superset of monkey.
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "csd129" "mwnci" "go">}}
+MonkeyLang Interpreter in go. Lots & lots of additional builtins, with system administration in mind.
+It supports importing, bitwise operators, many of the usual string and array operations, floats, sockets & much more
+The wiki can be found here: <a href="https://monkey.ploogie.co.uk">Mwnci Homepage</a>
+{{< /monkey-implementation >}}
 </ul>
