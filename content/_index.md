@@ -680,4 +680,9 @@ MonkeyLang Interpreter in go. Lots & lots of additional builtins, with system ad
 It supports importing, bitwise operators, many of the usual string and array operations, floats, sockets & much more
 The wiki can be found here: <a href="https://monkey.ploogie.co.uk">Mwnci Homepage</a>
 {{< /monkey-implementation >}}
+
+{{< monkey-implementation "eddmann" "santa-lang" "Rust and TypeScript">}}
+A functional, C-like programming language for solving Advent of Code puzzles.
+Includes [CLI](https://eddmann.com/santa-lang/cli/), [Web (WASM)](https://eddmann.com/santa-lang/web/), [AWS Lambda](https://eddmann.com/santa-lang/lambda/), [PHP extension](https://eddmann.com/santa-lang/php-ext/), and [Jupyter](https://eddmann.com/santa-lang/jupyter-kernel/) runtimes.
+{{< /monkey-implementation >}}
 </ul>
