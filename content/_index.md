@@ -680,4 +680,9 @@ MonkeyLang Interpreter in go. Lots & lots of additional builtins, with system ad
 It supports importing, bitwise operators, many of the usual string and array operations, floats, sockets & much more
 The wiki can be found here: <a href="https://monkey.ploogie.co.uk">Mwnci Homepage</a>
 {{< /monkey-implementation >}}
+
+{{< monkey-implementation "c-shinkle" "monkey-lang-interpreter" "Zig">}}
+A Monkey Lang interpreter implemented with Zig instead of Go. New enhancements include support for linking GNU's readline library.
+{{< /monkey-implementation >}}
+
 </ul>
