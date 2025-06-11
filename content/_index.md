@@ -680,4 +680,8 @@ MonkeyLang Interpreter in go. Lots & lots of additional builtins, with system ad
 It supports importing, bitwise operators, many of the usual string and array operations, floats, sockets & much more
 The wiki can be found here: <a href="https://monkey.ploogie.co.uk">Mwnci Homepage</a>
 {{< /monkey-implementation >}}
+
+{{< monkey-implementation "maxmynter" "MonkeyInterpreter" "Rust">}}
+  A Rust implementation of the Monkey interpreter.
+{{< /monkey-implementation >}}
 </ul>
