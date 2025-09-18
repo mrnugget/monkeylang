@@ -680,4 +680,8 @@ MonkeyLang Interpreter in go. Lots & lots of additional builtins, with system ad
 It supports importing, bitwise operators, many of the usual string and array operations, floats, sockets & much more
 The wiki can be found here: <a href="https://monkey.ploogie.co.uk">Mwnci Homepage</a>
 {{< /monkey-implementation >}}
+
+{{< monkey-implementation "joao-mbn" "orangutan" "TypeScript">}}
+An implementation of the Monkey Language both as an interpreted an as a compiled language using TypeScript. The interpreter supports `while` loops, `&&` (logical AND) and `||` (logical OR) operators.
+{{< /monkey-implementation >}}
 </ul>
