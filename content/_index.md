@@ -680,4 +680,9 @@ MonkeyLang Interpreter in go. Lots & lots of additional builtins, with system ad
 It supports importing, bitwise operators, many of the usual string and array operations, floats, sockets & much more
 The wiki can be found here: <a href="https://monkey.ploogie.co.uk">Mwnci Homepage</a>
 {{< /monkey-implementation >}}
+
+{{< monkey-implementation "gmires" "monkey-pascal" "pascal/delphi">}}
+monkey pascal interpreter with Garbage Collector mark-and-sweep and Debugger and IDE
+{{< /monkey-implementation >}}
+
 </ul>
