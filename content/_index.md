@@ -680,4 +680,15 @@ MonkeyLang Interpreter in go. Lots & lots of additional builtins, with system ad
 It supports importing, bitwise operators, many of the usual string and array operations, floats, sockets & much more
 The wiki can be found here: <a href="https://monkey.ploogie.co.uk">Mwnci Homepage</a>
 {{< /monkey-implementation >}}
+
+{{< monkey-implementation "natty-light" "Sydney" "Go">}}
+Using Monkey as a starting point, Sydney has the following additions:
+- Loops
+- Variable assignment, zero value initialization
+- Structs
+- Function declarations
+- Interfaces with dynamic dispatch allowing for interface based polymorphism
+- A static type system with a multi-pass type checker
+- A new compiler emitting LLVM IR and a Rust based runtime with a mark and sweep garbage collector
+{{< /monkey-implementation >}}
 </ul>
