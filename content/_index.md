@@ -683,12 +683,18 @@ The wiki can be found here: <a href="https://monkey.ploogie.co.uk">Mwnci Homepag
 
 {{< monkey-implementation "natty-light" "Sydney" "Go">}}
 Using Monkey as a starting point, Sydney has the following additions:
-- Loops
+- 3 different loop syntaxes, 1 part, 3 part, and for in
 - Variable assignment, zero value initialization
 - Structs
 - Function declarations
 - Interfaces with dynamic dispatch allowing for interface based polymorphism
 - A static type system with a multi-pass type checker
 - A new compiler emitting LLVM IR and a Rust based runtime with a mark and sweep garbage collector
+- Generic functions and structs
+- Error handling through pattern matching on a Result enum
+- Module system — multi-file compilation with import/module, a loader that discovers stdlib modules, and cross-module name mangling
+- Byte type and byte literals ('a')
+- A Growing standard library — strings, io, sort, heap modules
+- Slice expressions — arr[1:4], str[0:5] with omitted bounds 
 {{< /monkey-implementation >}}
 </ul>
