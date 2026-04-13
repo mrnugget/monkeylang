@@ -680,4 +680,8 @@ MonkeyLang Interpreter in go. Lots & lots of additional builtins, with system ad
 It supports importing, bitwise operators, many of the usual string and array operations, floats, sockets & much more
 The wiki can be found here: <a href="https://monkey.ploogie.co.uk">Mwnci Homepage</a>
 {{< /monkey-implementation >}}
+
+{{< monkey-implementation "henry-the-frog" "monkey-lang" "JavaScript">}}
+A JavaScript implementation with five execution backends: tree-walking interpreter, bytecode compiler + stack VM, tracing JIT compiler (LuaJIT-inspired, ~10x average speedup), JavaScript transpiler, and WebAssembly compiler. Also features optional type annotations, a Result type with pattern matching, a module system, enums, array comprehensions, and a <a href="https://henry-the-frog.github.io/playground/">browser playground</a>.
+{{< /monkey-implementation >}}
 </ul>
