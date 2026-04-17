@@ -2,14 +2,15 @@ baseURL = "https://monkeylang.org"
 languageCode = "en-us"
 title = "The Monkey programming language"
 
-disableKinds = ["taxonomy", "taxonomyTerm"]
-
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-pygmentsUseClasses = true
+disableKinds = ["taxonomy"]
 
 [markup.goldmark.renderer]
-unsafe= true
+unsafe = true
+
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+noClasses = false
 
 [[menu.main]]
     name = "What is Monkey?"
