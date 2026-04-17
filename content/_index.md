@@ -680,4 +680,58 @@ MonkeyLang Interpreter in go. Lots & lots of additional builtins, with system ad
 It supports importing, bitwise operators, many of the usual string and array operations, floats, sockets & much more
 The wiki can be found here: <a href="https://monkey.ploogie.co.uk">Mwnci Homepage</a>
 {{< /monkey-implementation >}}
+
+{{< monkey-implementation "vincentlabelle" "monkey" "Go">}}
+A slightly refactored implementation of Monkey in Go.
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "eddmann" "santa-lang" "Rust and TypeScript">}}
+A functional, C-like programming language for solving Advent of Code puzzles.
+Includes [CLI](https://eddmann.com/santa-lang/cli/), [Web (WASM)](https://eddmann.com/santa-lang/web/), [AWS Lambda](https://eddmann.com/santa-lang/lambda/), [PHP extension](https://eddmann.com/santa-lang/php-ext/), and [Jupyter](https://eddmann.com/santa-lang/jupyter-kernel/) runtimes.
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "kaung-san-hein" "monkey-language" "Go">}}
+A step-by-step implementation of the Monkey programming language interpreter in Go with an online [playgound](https://monkey-lang-playground.vercel.app/).
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "c-shinkle" "monkey-lang-interpreter" "Zig">}}
+A Monkey Lang interpreter implemented with Zig instead of Go. New enhancements include support for linking GNU's readline library.
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "maxmynter" "MonkeyInterpreter" "Rust">}}
+A Rust implementation of the Monkey interpreter.
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "gmires" "monkey-pascal" "Pascal/Delphi">}}
+Monkey Pascal interpreter with a mark-and-sweep garbage collector, a debugger, and an IDE.
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "joao-mbn" "orangutan" "TypeScript">}}
+An implementation of the Monkey Language both as an interpreted and as a compiled language using TypeScript. The interpreter supports `while` loops, `&&` (logical AND) and `||` (logical OR) operators.
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "ErikOakleaf" "simian_rs" "Rust">}}
+A Rust implementation of the Monkey bytecode compiler and VM from "Writing A Compiler In Go".
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "natty-light" "Sydney" "Go">}}
+Using Monkey as a starting point, Sydney has the following additions:
+- 3 different loop syntaxes: 1-part, 3-part, and for-in
+- Variable assignment, zero-value initialization
+- Structs
+- Function declarations
+- Interfaces with dynamic dispatch allowing for interface-based polymorphism
+- A static type system with a multi-pass type checker
+- A new compiler emitting LLVM IR and a Rust-based runtime with a mark-and-sweep garbage collector
+- Generic functions and structs
+- Error handling through pattern matching on a Result enum
+- Module system — multi-file compilation with import/module, a loader that discovers stdlib modules, and cross-module name mangling
+- Byte type and byte literals (`'a'`)
+- A growing standard library — strings, io, sort, heap modules
+- Slice expressions — `arr[1:4]`, `str[0:5]` with omitted bounds
+{{< /monkey-implementation >}}
+
+{{< monkey-implementation "henry-the-frog" "monkey-lang" "JavaScript">}}
+A JavaScript implementation with five execution backends: tree-walking interpreter, bytecode compiler + stack VM, tracing JIT compiler (LuaJIT-inspired, ~10x average speedup), JavaScript transpiler, and WebAssembly compiler. Also features optional type annotations, a Result type with pattern matching, a module system, enums, array comprehensions, and a <a href="https://henry-the-frog.github.io/playground/">browser playground</a>.
+{{< /monkey-implementation >}}
 </ul>
