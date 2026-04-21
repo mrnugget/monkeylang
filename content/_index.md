@@ -734,4 +734,9 @@ Using Monkey as a starting point, Sydney has the following additions:
 {{< monkey-implementation "henry-the-frog" "monkey-lang" "JavaScript">}}
 A JavaScript implementation with five execution backends: tree-walking interpreter, bytecode compiler + stack VM, tracing JIT compiler (LuaJIT-inspired, ~10x average speedup), JavaScript transpiler, and WebAssembly compiler. Also features optional type annotations, a Result type with pattern matching, a module system, enums, array comprehensions, and a <a href="https://henry-the-frog.github.io/playground/">browser playground</a>.
 {{< /monkey-implementation >}}
+
+{{< monkey-implementation "michaelbdev" "lua-monkey" "Lua">}}
+A Lua implementation of Monkey, featuring many extensions to the language.
+{{< /monkey-implementation >}}
+
 </ul>
