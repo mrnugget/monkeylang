@@ -739,4 +739,8 @@ A JavaScript implementation with five execution backends: tree-walking interpret
 A Lua implementation of Monkey, featuring many extensions to the language.
 {{< /monkey-implementation >}}
 
+{{< monkey-implementation "ArnulfoVargas" "monkey_interpreter" "Rust">}}
+A Rust implementation of the Monkey Programming Language with mutable variables.
+{{< /monkey-implementation >}}
+
 </ul>
