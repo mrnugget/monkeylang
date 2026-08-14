@@ -1,0 +1,17 @@
+{
+  "name": "monkeylang.org",
+  "user": "ubuntu",
+  "install": "./.cursor/install.sh",
+  "terminals": [
+    {
+      "name": "hugo-serve",
+      "command": "hugo serve -D --disableFastRender --bind 0.0.0.0 --port 1313 --baseURL http://localhost:1313/ --appendPort=false"
+    }
+  ],
+  "ports": [
+    {
+      "name": "Hugo dev server",
+      "port": 1313
+    }
+  ]
+}
